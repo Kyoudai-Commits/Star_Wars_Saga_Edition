@@ -1,0 +1,30 @@
+{
+  "started_at_utc": "2026-10-09T09:37:55Z",
+  "finished_at_utc": "2026-10-09T09:37:55Z",
+  "targets_file": "targets.txt",
+  "output_directory": "swse_wiki_export",
+  "counts": {
+    "downloaded": 0,
+    "not_modified": 0,
+    "failed": 2
+  },
+  "workers": 25,
+  "request_start_delay_seconds": 0.1,
+  "skip_cached_success": true,
+  "indexed_pages": 809,
+  "discovery_seeds": 0,
+  "discovery_seed_urls": [],
+  "discovered_pages_queued": 0,
+  "errors": [
+    {
+      "url": "https://swse.fandom.com/wiki/Force_Prodigy",
+      "error": "HTTP 403",
+      "discovery_seed": false
+    },
+    {
+      "url": "https://swse.fandom.com/wiki/Technician",
+      "error": "HTTP 403",
+      "discovery_seed": false
+    }
+  ]
+}

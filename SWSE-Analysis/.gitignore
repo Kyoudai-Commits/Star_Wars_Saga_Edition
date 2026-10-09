@@ -1,0 +1,10 @@
+# Local Python environment and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Private HTTP validators/cache state; the exported Markdown and public index
+# are intentionally not ignored and can be reviewed and committed.
+.scraper-state.json
+**/.scraper-state.json
+*.tmp
