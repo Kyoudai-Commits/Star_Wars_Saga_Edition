@@ -1,0 +1,1659 @@
+{
+  "schema_version": 1,
+  "review_basis": "Agent comparison against explicit prerequisite blocks in the uploaded wiki text. No prerequisites inferred from workbook summaries.",
+  "rules": [
+    {
+      "entity_id": "prestige_class:ace-pilot",
+      "document": "ace-pilot",
+      "article_sha256": "9a5997cb58ed0aeac4431804ebace53f89969f4ba113d2b9db2ecaa702684177",
+      "ranges": [
+        [
+          26,
+          31
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Pilot"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Vehicular Combat"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:assassin",
+      "document": "assassin",
+      "article_sha256": "cef1aee3645eb8b89877262b9416345665ec88e5eb6d8bd85219df3f4bda8025",
+      "ranges": [
+        [
+          26,
+          32
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Stealth"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Sniper"
+          },
+          {
+            "op": "has",
+            "field": "talents",
+            "value": "Dastardly Strike"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:bounty-hunter",
+      "document": "bounty-hunter",
+      "article_sha256": "0efa08f52cf6209be6ab11079689aa67baef0b9cb155cf8f10c6ef817df9fec0",
+      "ranges": [
+        [
+          26,
+          31
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Survival"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 2,
+            "trees": [
+              "Awareness Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:charlatan",
+      "document": "charlatan",
+      "article_sha256": "aba0f73a24702e92b069086295782683d20f3d8d3689b1be4854a8b06da534e9",
+      "ranges": [
+        [
+          26,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Deception"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Persuasion"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Disgrace Talent Tree",
+              "Influence Talent Tree",
+              "Lineage Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:corporate-agent",
+      "document": "corporate-agent",
+      "article_sha256": "06537aa7478da405b94a5ecf43533b2787d168dab6eeae938f5dbfc7266b8956",
+      "ranges": [
+        [
+          24,
+          30
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Gather Information"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Knowledge (Bureaucracy)"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Skill Focus (Knowledge (Bureaucracy))"
+          },
+          {
+            "op": "fact",
+            "name": "employed_by_major_interstellar_corporation",
+            "label": "Must be employed by a major interstellar corporation"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:crime-lord",
+      "document": "crime-lord",
+      "article_sha256": "de8f728ae31242e524d73f230abd44bf9911d0e1e8a5401f0ee3cae66770158f",
+      "ranges": [
+        [
+          26,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Deception"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Persuasion"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Fortune Talent Tree",
+              "Lineage Talent Tree",
+              "Misfortune Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:droid-commander",
+      "document": "droid-commander",
+      "article_sha256": "de609e98f12cd62ba33b8da22116ae3785d208238d9233ec03b166ad3f992634",
+      "ranges": [
+        [
+          24,
+          32
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Knowledge (Tactics)"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use Computer"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Leadership Talent Tree",
+              "Commando Talent Tree"
+            ]
+          },
+          {
+            "op": "fact",
+            "name": "is_droid",
+            "label": "Must be a Droid"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:elite-trooper",
+      "document": "elite-trooper",
+      "article_sha256": "a8b1d9e6d71f0bc8332428d6ec87be5736909add61ac4160352b2ea4da035ddc",
+      "ranges": [
+        [
+          24,
+          33
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Armor Proficiency (Light)"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Armor Proficiency (Medium)"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Martial Arts I"
+          },
+          {
+            "op": "any",
+            "args": [
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Point-Blank Shot"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Flurry"
+              }
+            ]
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Armor Specialist Talent Tree",
+              "Commando Talent Tree",
+              "Mercenary Talent Tree",
+              "Weapon Specialist Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:enforcer",
+      "document": "enforcer",
+      "article_sha256": "4ccd10b566a878ab7fdaa7e7cc90f5dcadae668a551758a818a0447f49dc23d9",
+      "ranges": [
+        [
+          28,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Gather Information"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Perception"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Survivor Talent Tree"
+            ]
+          },
+          {
+            "op": "fact",
+            "name": "law_enforcement_membership",
+            "label": "Must belong to a law enforcement or similar security organization"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:force-adept",
+      "document": "force-adept",
+      "article_sha256": "0e12812f9999a8ccfc8cf357a70e26ec6fa7fb6c7e84c8f2bbb4e617d0431654",
+      "ranges": [
+        [
+          26,
+          32
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use the Force"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Force Sensitivity"
+          },
+          {
+            "op": "gte",
+            "field": "force_talent_count",
+            "value": 3
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:force-disciple",
+      "document": "force-disciple",
+      "article_sha256": "dd90d829cd48386a2a9f7085fe26bdfc2fdf36c45c29207526da673b8e957950",
+      "ranges": [
+        [
+          24,
+          35
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 12
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use the Force"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Force Sensitivity"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 2,
+            "trees": [
+              "Dark Side Devotee Talent Tree",
+              "Force Adept Talent Tree",
+              "Force Item Talent Tree"
+            ]
+          },
+          {
+            "op": "has",
+            "field": "force_powers",
+            "value": "Farseeing"
+          },
+          {
+            "op": "gte",
+            "field": "force_technique_count",
+            "value": 1
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:gladiator",
+      "document": "gladiator",
+      "article_sha256": "bdea228b7325fd059e1125890c52275a42e5355484b2872f19c24671db40913b",
+      "ranges": [
+        [
+          24,
+          29
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Improved Damage Threshold"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Weapon Proficiency (Advanced Melee Weapons)"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:gunslinger",
+      "document": "gunslinger",
+      "article_sha256": "370bb00211783519725cc7dd66dda270240e7b4a79fed917caf88089800b5138",
+      "ranges": [
+        [
+          24,
+          28
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Point-Blank Shot"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Precise Shot"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Quick Draw"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Weapon Proficiency (Pistols)"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:imperial-knight",
+      "document": "imperial-knight",
+      "article_sha256": "2ab47d2fdeab5ff56b3956f45cc388572f415d941bf928667540063b1f9562a0",
+      "ranges": [
+        [
+          28,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use the Force"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Armor Proficiency (Light)"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Armor Proficiency (Medium)"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Force Sensitivity"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Weapon Proficiency (Lightsabers)"
+          },
+          {
+            "op": "fact",
+            "name": "sworn_defender_of_roan_fel",
+            "label": "Must be a sworn defender of Emperor Roan Fel"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:improviser",
+      "document": "improviser",
+      "article_sha256": "48fcfc17f2b26e3f3405b5b0d9724d487aa49f52fafd47edbcb934d40d127cb8",
+      "ranges": [
+        [
+          20,
+          25
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Mechanics"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use Computer"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Skill Focus (Mechanics)"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:independent-droid",
+      "document": "independent-droid",
+      "article_sha256": "66717623ce17e66654825e2a79b9362f29e4069c38da4c9c8cdddfe3ee476164",
+      "ranges": [
+        [
+          26,
+          32
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 3
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use Computer"
+          },
+          {
+            "op": "has",
+            "field": "droid_systems",
+            "value": "Heuristic Processor"
+          },
+          {
+            "op": "fact",
+            "name": "is_droid",
+            "label": "Must be a Droid"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:infiltrator",
+      "document": "infiltrator",
+      "article_sha256": "970786c71fca403b8e52838eedc3d93cc55151a324f882cf519bc39478a56b50",
+      "ranges": [
+        [
+          26,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Perception"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Stealth"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Skill Focus (Stealth)"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 2,
+            "trees": [
+              "Camouflage Talent Tree",
+              "Spy Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:jedi-knight",
+      "document": "jedi-knight",
+      "article_sha256": "7500d4667894a82b069bd97ea197e7b59ddbaaf3695b2ee366c453ec97dbd4fa",
+      "ranges": [
+        [
+          24,
+          30
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use the Force"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Force Sensitivity"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Weapon Proficiency (Lightsabers)"
+          },
+          {
+            "op": "fact",
+            "name": "jedi_membership",
+            "label": "Must be a member of The Jedi"
+          },
+          {
+            "op": "fact",
+            "name": "lightsaber_construction_completed",
+            "label": "Must have completed Lightsaber Construction"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:jedi-master",
+      "document": "jedi-master",
+      "article_sha256": "63b2170e20d22daacc69854d9c6219e026d7e59fde9dfc9a87274720f6dfe273",
+      "ranges": [
+        [
+          26,
+          33
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 12
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use the Force"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Force Sensitivity"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Weapon Proficiency (Lightsabers)"
+          },
+          {
+            "op": "gte",
+            "field": "force_technique_count",
+            "value": 1
+          },
+          {
+            "op": "fact",
+            "name": "jedi_membership",
+            "label": "Must be a member of The Jedi"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:martial-arts-master",
+      "document": "martial-arts-master",
+      "article_sha256": "c41d7820770184f3d984f74f6f647101f41b04b5a59e70766574ab72da5d905e",
+      "ranges": [
+        [
+          24,
+          31
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Martial Arts I"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Martial Arts II"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Melee Defense"
+          },
+          {
+            "op": "any",
+            "args": [
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Echani Training"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Hijkata Training"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "K'tara Training"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "K'thri Training"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Stava Training"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Tae-Jitsu Training"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Teräs Käsi Training"
+              },
+              {
+                "op": "has",
+                "field": "feats",
+                "value": "Wrruushi Training"
+              }
+            ]
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Brawler Talent Tree",
+              "Survivor Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:master-privateer",
+      "document": "master-privateer",
+      "article_sha256": "cfa4ea52f4dfd86c9686bc88b3bf5ec33dcc67b5c556f15b5e5d8062eb6a1528",
+      "ranges": [
+        [
+          30,
+          39
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Deception"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Pilot"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Vehicular Combat"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 2,
+            "trees": [
+              "Misfortune Talent Tree",
+              "Smuggling Talent Tree",
+              "Spacer Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:medic",
+      "document": "medic",
+      "article_sha256": "827b5a1ed8d7f43818ece7dc56523d65d02d4e5417d1dc9e9fbdb8f68590dd79",
+      "ranges": [
+        [
+          26,
+          31
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Knowledge (Life Sciences)"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Treat Injury"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Surgical Expertise"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:melee-duelist",
+      "document": "melee-duelist",
+      "article_sha256": "ba655c5e0375447c174cb56fd84dac3fc831fddad6bc40a0ec067034d5f674f0",
+      "ranges": [
+        [
+          24,
+          29
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Melee Defense"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Rapid Strike"
+          },
+          {
+            "op": "fact",
+            "name": "weapon_focus_melee_weapon",
+            "label": "Weapon Focus (Melee Weapon): must be an appropriate weapon-focus selection, not inferred from a generic name"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:military-engineer",
+      "document": "military-engineer",
+      "article_sha256": "0c42c08773fafbd012ce8bd2f6ed7074feeb9abfea0599d9bf9971b68e51fe09",
+      "ranges": [
+        [
+          26,
+          30
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Mechanics"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use Computer"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:officer",
+      "document": "officer",
+      "article_sha256": "2a61873ece730635cd7c4065ad1bcafd8588a072c6a6fbbb8db00dc7170f16d0",
+      "ranges": [
+        [
+          24,
+          33
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Knowledge (Tactics)"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Leadership Talent Tree",
+              "Commando Talent Tree",
+              "Veteran Talent Tree"
+            ]
+          },
+          {
+            "op": "fact",
+            "name": "military_organization_membership",
+            "label": "Must belong to an organization with a military or paramilitary division"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:outlaw",
+      "document": "outlaw",
+      "article_sha256": "f958667cc0feff58d7c5152c292f4208e5709d684f51fd7b085a0cdcfe560d2c",
+      "ranges": [
+        [
+          26,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Stealth"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Survival"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 1,
+            "trees": [
+              "Disgrace Talent Tree",
+              "Misfortune Talent Tree"
+            ]
+          },
+          {
+            "op": "fact",
+            "name": "wanted_by_authorities",
+            "label": "Must be wanted by the authorities in at least one star system"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:pathfinder",
+      "document": "pathfinder",
+      "article_sha256": "3f7defd22d72ad81a9be57a6aeefbdb8b28b1d755d735cdf0489b0951f012c42",
+      "ranges": [
+        [
+          26,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Perception"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Survival"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 2,
+            "trees": [
+              "Awareness Talent Tree",
+              "Camouflage Talent Tree",
+              "Survivor Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:saboteur",
+      "document": "saboteur",
+      "article_sha256": "e22462571970b29f02411d3d82023a68c0ed8384428cbd10e59df9f418f58ae7",
+      "ranges": [
+        [
+          26,
+          30
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Deception"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Mechanics"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Use Computer"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:shaper",
+      "document": "shaper",
+      "article_sha256": "1bd697f728cee5c087b1a8dc9e899bc8f324fbff32955103f04c97cb3626444d",
+      "ranges": [
+        [
+          24,
+          30
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "equals",
+            "field": "species",
+            "value": "Yuuzhan Vong"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Biotech Specialist"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Knowledge (Life Sciences)"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Treat Injury"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "prestige_class:vanguard",
+      "document": "vanguard",
+      "article_sha256": "d494bdadbd865966ab847ac3254e8db0c45d8b59f091b3ab8ae47f414f7e3dd2",
+      "ranges": [
+        [
+          26,
+          33
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "level",
+            "value": 7
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Perception"
+          },
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Stealth"
+          },
+          {
+            "op": "count_talents",
+            "at_least": 2,
+            "trees": [
+              "Camouflage Talent Tree",
+              "Commando Talent Tree"
+            ]
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite block only; not a complete character/build validator."
+    },
+    {
+      "entity_id": "feat:rapid-strike",
+      "document": "rapid-strike",
+      "article_sha256": "d41c0e1dc5d331e37d45b6aaa75cd9d190173a3c6172e806219eda7cab90df67",
+      "ranges": [
+        [
+          20,
+          20
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "gte",
+            "field": "base_attack_bonus",
+            "value": 1
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite(s) only; does not validate acquisition permissions or full character legality."
+    },
+    {
+      "entity_id": "feat:armor-proficiency-light",
+      "document": "armor-proficiency-light",
+      "article_sha256": "4252e35dbfdda0197329bc4e1f248fd6d386b2d547c3a6f30e844c37848a5c7f",
+      "ranges": [
+        [
+          16,
+          22
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": []
+      },
+      "scope": "Reviewed full local entry states no explicit prerequisites. Empty expression covers only locally stated prerequisites; it does not establish acquisition permissions, progression or primary-publication correctness."
+    },
+    {
+      "entity_id": "feat:armor-proficiency-medium",
+      "document": "armor-proficiency-medium",
+      "article_sha256": "ef66eac46a17c77b7c1593b0ccac2f1f7dc7b8472c253061bacac7bb898b608a",
+      "ranges": [
+        [
+          20,
+          20
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Armor Proficiency (Light)"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite(s) only; does not validate acquisition permissions or full character legality."
+    },
+    {
+      "entity_id": "feat:armor-proficiency-heavy",
+      "document": "armor-proficiency-heavy",
+      "article_sha256": "bcaf9d4343bddf80905af7031aefc0c02f8927c89fa5dd019197c466fa86d61f",
+      "ranges": [
+        [
+          20,
+          20
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Armor Proficiency (Medium)"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite(s) only; does not validate acquisition permissions or full character legality."
+    },
+    {
+      "entity_id": "feat:acrobatic-strike",
+      "document": "acrobatic-strike",
+      "article_sha256": "cc10d46bdca8583738e6222c0bab86d671453b6793afd7b455639dd57c44e30b",
+      "ranges": [
+        [
+          20,
+          20
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has",
+            "field": "trained_skills",
+            "value": "Acrobatics"
+          }
+        ]
+      },
+      "scope": "Explicit local prerequisite(s) only; does not validate acquisition permissions or full character legality."
+    },
+    {
+      "entity_id": "talent:armor-specialist-talent-tree:armor-mastery",
+      "document": "armor-specialist-talent-tree",
+      "article_sha256": "1f4a874b2f6d69cdccacfd4477a6fef9720998d4a8562d6c62f202218cd69400",
+      "ranges": [
+        [
+          24,
+          24
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Armored Defense",
+            "tree": "Armor Specialist Talent Tree"
+          }
+        ]
+      },
+      "scope": "Talent prerequisites only, not tree/class access or acquisition legality."
+    },
+    {
+      "entity_id": "talent:armor-specialist-talent-tree:improved-armored-defense",
+      "document": "armor-specialist-talent-tree",
+      "article_sha256": "1f4a874b2f6d69cdccacfd4477a6fef9720998d4a8562d6c62f202218cd69400",
+      "ranges": [
+        [
+          34,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Armored Defense",
+            "tree": "Armor Specialist Talent Tree"
+          }
+        ]
+      },
+      "scope": "Talent prerequisites only, not tree/class access or acquisition legality."
+    },
+    {
+      "entity_id": "talent:awareness-talent-tree:expert-tracker",
+      "document": "awareness-talent-tree",
+      "article_sha256": "6afc8944af6181a10f1831868f8484cce73f5563b8bfde9ed10aa76872da4826",
+      "ranges": [
+        [
+          28,
+          28
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Acute Senses",
+            "tree": "Awareness Talent Tree"
+          }
+        ]
+      },
+      "scope": "Talent prerequisites only, not tree/class access or acquisition legality."
+    },
+    {
+      "entity_id": "talent:awareness-talent-tree:improved-initiative",
+      "document": "awareness-talent-tree",
+      "article_sha256": "6afc8944af6181a10f1831868f8484cce73f5563b8bfde9ed10aa76872da4826",
+      "ranges": [
+        [
+          34,
+          34
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Acute Senses",
+            "tree": "Awareness Talent Tree"
+          }
+        ]
+      },
+      "scope": "Talent prerequisites only, not tree/class access or acquisition legality."
+    },
+    {
+      "entity_id": "talent:awareness-talent-tree:keen-shot",
+      "document": "awareness-talent-tree",
+      "article_sha256": "6afc8944af6181a10f1831868f8484cce73f5563b8bfde9ed10aa76872da4826",
+      "ranges": [
+        [
+          40,
+          40
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Acute Senses",
+            "tree": "Awareness Talent Tree"
+          }
+        ]
+      },
+      "scope": "Talent prerequisites only, not tree/class access or acquisition legality."
+    },
+    {
+      "entity_id": "talent:awareness-talent-tree:uncanny-dodge-i",
+      "document": "awareness-talent-tree",
+      "article_sha256": "6afc8944af6181a10f1831868f8484cce73f5563b8bfde9ed10aa76872da4826",
+      "ranges": [
+        [
+          46,
+          46
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Improved Initiative",
+            "tree": "Awareness Talent Tree"
+          }
+        ]
+      },
+      "scope": "Talent prerequisites only, not tree/class access or acquisition legality."
+    },
+    {
+      "entity_id": "talent:awareness-talent-tree:uncanny-dodge-ii",
+      "document": "awareness-talent-tree",
+      "article_sha256": "6afc8944af6181a10f1831868f8484cce73f5563b8bfde9ed10aa76872da4826",
+      "ranges": [
+        [
+          52,
+          52
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "all",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Uncanny Dodge I",
+            "tree": "Awareness Talent Tree"
+          }
+        ]
+      },
+      "scope": "Talent prerequisites only, not tree/class access or acquisition legality."
+    },
+    {
+      "entity_id": "feat:staggering-attack:scum-and-villainy",
+      "document": "staggering-attack",
+      "article_sha256": "454c38f503479193fbc73ca0bddc380ecd1b3cc5694b2a0184771c21d52bfdf6",
+      "ranges": [
+        [
+          22,
+          22
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "any",
+        "args": [
+          {
+            "op": "has_talent",
+            "name": "Sneak Attack"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Rapid Shot"
+          },
+          {
+            "op": "has",
+            "field": "feats",
+            "value": "Rapid Strike"
+          }
+        ]
+      },
+      "scope": "Only this source-specific prerequisite set."
+    },
+    {
+      "entity_id": "feat:staggering-attack:galaxy-at-war",
+      "document": "staggering-attack",
+      "article_sha256": "454c38f503479193fbc73ca0bddc380ecd1b3cc5694b2a0184771c21d52bfdf6",
+      "ranges": [
+        [
+          30,
+          30
+        ]
+      ],
+      "review_status": "reviewed_local_prerequisites",
+      "ast": {
+        "op": "gte",
+        "field": "base_attack_bonus",
+        "value": 1
+      },
+      "scope": "Only this source-specific prerequisite set."
+    }
+  ]
+}

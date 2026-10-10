@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "protocol": "Repository-specific JSON-lines adapter; not an MCP implementation.",
+  "tools": [
+    {
+      "name": "resolve",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "book": {
+            "type": "string"
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string",
+            "description": "Exact local name, alias or entity ID; ambiguous variants are not merged."
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "search",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "description": "Exact declared action text, e.g. Swift Action."
+          },
+          "book": {
+            "type": "string"
+          },
+          "class_name": {
+            "type": "string",
+            "description": "Declared category access hint, not a character-eligibility predicate."
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500
+          },
+          "offset": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "query": {
+            "type": "string",
+            "description": "Plain search terms, not SQL or FTS syntax."
+          },
+          "reviewed_prerequisites": {
+            "type": "boolean"
+          },
+          "tree": {
+            "type": "string"
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "list",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "description": "Exact declared action text, e.g. Swift Action."
+          },
+          "book": {
+            "type": "string"
+          },
+          "class_name": {
+            "type": "string",
+            "description": "Declared category access hint, not a character-eligibility predicate."
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500
+          },
+          "offset": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "reviewed_prerequisites": {
+            "type": "boolean"
+          },
+          "tree": {
+            "type": "string"
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "get",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "book": {
+            "type": "string"
+          },
+          "expand": {
+            "type": "boolean"
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "max_chars": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200000
+          },
+          "name": {
+            "type": "string",
+            "description": "Exact local name, alias or entity ID; ambiguous variants are not merged."
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "bundle",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "book": {
+            "type": "string"
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "max_chars": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200000
+          },
+          "name": {
+            "type": "string",
+            "description": "Exact local name, alias or entity ID; ambiguous variants are not merged."
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "chunk",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "book": {
+            "type": "string"
+          },
+          "chunk_id": {
+            "type": "string"
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "max_chars": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200000
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "chunk_id"
+        ],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "coverage",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "book": {
+            "type": "string"
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string",
+            "description": "Exact local name, alias or entity ID; ambiguous variants are not merged."
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "check",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "book": {
+            "type": "string"
+          },
+          "character": {
+            "type": "object",
+            "description": "Explicit character facts; see docs/AGENT_RETRIEVAL.md. Missing facts are unknown."
+          },
+          "include_homebrew": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_optional": {
+            "type": "boolean",
+            "default": false
+          },
+          "include_unreviewed": {
+            "type": "boolean",
+            "default": true
+          },
+          "kind": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string",
+            "description": "Exact local name, alias or entity ID; ambiguous variants are not merged."
+          },
+          "variant": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "character",
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    },
+    {
+      "name": "doctor",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      },
+      "transport": "One JSON line: {\"id\": ..., \"method\": name, \"params\": arguments}; read-only, offline."
+    }
+  ]
+}

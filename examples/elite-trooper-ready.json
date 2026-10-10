@@ -1,0 +1,16 @@
+{
+  "level": 7,
+  "base_attack_bonus": 7,
+  "feats": [
+    "Armor Proficiency (Light)",
+    "Armor Proficiency (Medium)",
+    "Martial Arts I",
+    "Flurry"
+  ],
+  "talents": [
+    {
+      "name": "Armored Defense",
+      "tree": "Armor Specialist Talent Tree"
+    }
+  ]
+}

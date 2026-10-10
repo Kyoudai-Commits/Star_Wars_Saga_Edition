@@ -1,0 +1,7 @@
+# Preserve byte-stable source/curation text across operating systems.
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.xlsx binary

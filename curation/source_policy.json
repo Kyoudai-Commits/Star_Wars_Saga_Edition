@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "include_homebrew": false,
+  "include_optional": false,
+  "include_unreviewed": true,
+  "allowed_sources": null,
+  "chunk_char_budget": 3200,
+  "evidence_char_budget": 12000,
+  "default_search_limit": 8,
+  "notes": [
+    "Source declarations are wiki claims, not verified published-rule authority.",
+    "Unreviewed extraction is searchable but labeled; only explicitly reviewed prerequisite ASTs are executable.",
+    "Explicit homebrew and optional-rule passages require opt-in. No campaign-specific book restrictions are assumed."
+  ]
+}
