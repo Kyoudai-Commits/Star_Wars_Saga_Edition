@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "6db6392e25c997777b99ab567c7e425d4442924b27dfc99e778629edbec68e27",
+  "scope": "Golden local navigation/evidence/policy/encoded-prerequisite cases. Not primary-source validation or exhaustive game-rule correctness.",
+  "case_count": 33,
+  "passed": 33,
+  "failed": 0,
+  "cases": [
+    {
+      "id": "rapid_strike_area_interaction",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 59.217
+    },
+    {
+      "id": "embedded_armored_defense",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 51.131
+    },
+    {
+      "id": "staggering_ambiguous",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.105
+    },
+    {
+      "id": "staggering_sv_separated",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 55.433
+    },
+    {
+      "id": "staggering_gaw_separated",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 55.996
+    },
+    {
+      "id": "force_storm_ambiguous",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 52.912
+    },
+    {
+      "id": "force_storm_fucg",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 56.073
+    },
+    {
+      "id": "force_storm_jatm",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 56.428
+    },
+    {
+      "id": "corruption_type_split",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 55.762
+    },
+    {
+      "id": "intercept_maneuver_split",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 54.991
+    },
+    {
+      "id": "dark_transfer_not_merged",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 51.573
+    },
+    {
+      "id": "blind_requires_context",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 50.287
+    },
+    {
+      "id": "blind_contextual_local_mapping",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 53.239
+    },
+    {
+      "id": "fandom_title_not_verified_alias",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 47.874
+    },
+    {
+      "id": "move_object_base_and_clarification",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 49.886
+    },
+    {
+      "id": "move_object_optional_opt_in",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 47.019
+    },
+    {
+      "id": "block_optional_lock_default",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.286
+    },
+    {
+      "id": "block_optional_lock_opt_in",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 46.117
+    },
+    {
+      "id": "five_heroic_classes_default",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 42.685
+    },
+    {
+      "id": "homebrew_class_summary_only",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 55.365
+    },
+    {
+      "id": "homebrew_talent_default",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 42.003
+    },
+    {
+      "id": "homebrew_talent_opt_in",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 46.677
+    },
+    {
+      "id": "daily_force_points_default",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 44.953
+    },
+    {
+      "id": "force_points_embedded_coverage",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 42.147
+    },
+    {
+      "id": "use_the_force_detailed_gap",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 42.035
+    },
+    {
+      "id": "bounty_hunter_met",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 42.568
+    },
+    {
+      "id": "bounty_hunter_missing_facts_unknown",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 44.473
+    },
+    {
+      "id": "duplicate_talents_not_double_counted",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.748
+    },
+    {
+      "id": "elite_trooper_or_preserved",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.175
+    },
+    {
+      "id": "native_light_armor_requirement_not_lost",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.976
+    },
+    {
+      "id": "unencoded_is_unknown_not_no_prereqs",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.355
+    },
+    {
+      "id": "partial_inventory_is_unknown",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.208
+    },
+    {
+      "id": "awareness_enumeration_not_topk",
+      "status": "passed",
+      "error": null,
+      "elapsed_ms": 45.429
+    }
+  ],
+  "latency_ms": {
+    "median": 46.677,
+    "p95_floor_rank": 56.073,
+    "maximum": 59.217
+  },
+  "latency_scope": "Local operation including per-request source/code/curation fingerprint checks; excludes initial database build and Repository construction.",
+  "limits": [
+    "Passing local evidence fixtures does not establish primary-source correctness or complete semantic coverage.",
+    "Not a benchmark against other retrieval systems, embeddings or full character/rules engines."
+  ]
+}

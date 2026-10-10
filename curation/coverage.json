@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "concepts": [
+    {
+      "name": "Use the Force",
+      "aliases": [],
+      "status": "insufficient_local_evidence",
+      "scope": "Complete detailed skill uses",
+      "note": "The local Skills overview lists the skill and a general formula; powers reference skill checks, but the detailed standalone skill article is not exported. Do not reconstruct the complete skill from those references.",
+      "evidence_document": "skills",
+      "article_sha256": "2607f94d36b68295b462a4700ce5596c677b219849958ce9e69d5835887e1731",
+      "ranges": [
+        [
+          52,
+          100
+        ]
+      ]
+    },
+    {
+      "name": "Force Points",
+      "aliases": [
+        "Force Point",
+        "Using Force Points"
+      ],
+      "status": "embedded_evidence",
+      "entity_ids": [
+        "rule_concept:force-points"
+      ],
+      "scope": "Base Force Point rules at the reviewed span; other uses/atonement/variants are separate.",
+      "note": "This is embedded evidence, not a claim that every Force Point rule in the game is present."
+    },
+    {
+      "name": "Ability Modifiers",
+      "aliases": [
+        "Ability Modifier"
+      ],
+      "status": "embedded_evidence",
+      "entity_ids": [
+        "rule_concept:ability-modifiers"
+      ],
+      "scope": "General ability modifier rules"
+    },
+    {
+      "name": "Skill Checks",
+      "aliases": [
+        "Skill Check"
+      ],
+      "status": "embedded_evidence",
+      "entity_ids": [
+        "rule_concept:skill-checks"
+      ],
+      "scope": "General skill-check formula; not all detailed skills"
+    }
+  ]
+}

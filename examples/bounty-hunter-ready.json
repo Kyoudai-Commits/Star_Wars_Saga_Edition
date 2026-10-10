@@ -1,0 +1,16 @@
+{
+  "level": 7,
+  "trained_skills": [
+    "Survival"
+  ],
+  "talents": [
+    {
+      "name": "Acute Senses",
+      "tree": "Awareness Talent Tree"
+    },
+    {
+      "name": "Expert Tracker",
+      "tree": "Awareness Talent Tree"
+    }
+  ]
+}

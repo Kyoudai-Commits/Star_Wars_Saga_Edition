@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "document_count": 809,
+  "entity_count": 1971,
+  "entities_by_kind": {
+    "category": 4,
+    "destiny": 1,
+    "document_context": 5,
+    "feat": 353,
+    "force_power": 90,
+    "heroic_class": 7,
+    "prestige_class": 30,
+    "reference": 30,
+    "rule_concept": 8,
+    "species": 133,
+    "starship_maneuver": 1,
+    "talent": 1142,
+    "talent_tree": 167
+  },
+  "individual_talents": 1142,
+  "homebrew_talents": [
+    "talent:felucian-shaman-talent-tree:skullblade-mastery",
+    "talent:mandalorian-warrior-talent-tree:mandalorian-martial-arts-mastery",
+    "talent:order-of-shasa-talent-tree:fira-mastery",
+    "talent:survivor-talent-tree:wilderness-medic",
+    "talent:zeison-sha-warrior-talent-tree:discblade-mastery"
+  ],
+  "summary_only_entities": [
+    "heroic_class:technician",
+    "heroic_class:force-prodigy"
+  ],
+  "reviewed_boundary_documents": [
+    "abilities",
+    "corruption",
+    "dark-transfer",
+    "force-storm",
+    "intercept",
+    "move-object",
+    "point-blank-shot",
+    "skills",
+    "staggering-attack",
+    "the-force"
+  ],
+  "reviewed_prerequisite_expressions": 44,
+  "manual_role_annotations": 8,
+  "chunk_count": 3034,
+  "chunks_by_role": {
+    "base_rule": 1588,
+    "clarification": 82,
+    "gm_advice": 1,
+    "optional_rule": 21,
+    "unclassified": 1342
+  },
+  "homebrew_chunks": 12,
+  "table_chunks": 421,
+  "oversized_unsplit_chunks": 25,
+  "search_text_characters": 2413771,
+  "raw_article_characters": 4340061,
+  "workbook_associations": 644,
+  "ambiguous_or_unmatched_workbook_rows": [
+    {
+      "sheet": "Force Powers",
+      "row": 43,
+      "label": "Dark Transfer",
+      "candidate_entity_ids": [
+        "force_power:dark-transfer:legacy-era-campaign-guide",
+        "force_power:dark-transfer:web-enhancements"
+      ]
+    }
+  ],
+  "relationship_count": 1457,
+  "missing_document_targets_with_local_entity_name_candidates": 118,
+  "coverage_queue_count": 75,
+  "limits": [
+    "Structural extraction is not comprehensive semantic review or primary-source verification.",
+    "Role detection is conservative and partly heuristic outside locked manual annotations.",
+    "Unreviewed multi-source entities must be read with their per-chunk source labels.",
+    "Only reviewed prerequisite expressions are executable; all other checks remain unknown.",
+    "Missing detailed rules cannot be fetched from the SWSE wiki in this network environment."
+  ],
+  "snapshot_id": "6db6392e25c997777b99ab567c7e425d4442924b27dfc99e778629edbec68e27",
+  "database_schema_version": 1,
+  "database_bytes_at_build": 23613440,
+  "rebuild_command": "python -m tools.swse build"
+}

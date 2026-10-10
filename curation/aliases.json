@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "aliases": [
+    {
+      "text": "Blind",
+      "entity_id": "force_power:force-blind",
+      "required_kind": "force_power",
+      "association": "contextual_local_rule_association",
+      "note": "The local Force Blind page explicitly explains the original Blind title; not a global condition alias."
+    },
+    {
+      "text": "https://swse.fandom.com/wiki/Blind",
+      "entity_id": "force_power:force-blind",
+      "required_kind": "force_power",
+      "association": "contextual_local_rule_association",
+      "note": "Force Powers sheet F50 association only; remote Fandom content has not been fetched or verified."
+    },
+    {
+      "text": "https://swse.fandom.com/wiki/Corruption_(Force_Power)",
+      "entity_id": "force_power:corruption",
+      "required_kind": "force_power",
+      "association": "contextual_local_rule_association"
+    },
+    {
+      "text": "https://swse.fandom.com/wiki/Force_Storm_(FUCG)",
+      "entity_id": "force_power:force-storm:force-unleashed-campaign-guide",
+      "required_kind": "force_power",
+      "association": "contextual_local_rule_association"
+    }
+  ],
+  "workbook_rows": [
+    {
+      "sheet": "Feats",
+      "row": 138,
+      "entity_id": "feat:staggering-attack:scum-and-villainy"
+    },
+    {
+      "sheet": "Feats",
+      "row": 270,
+      "entity_id": "feat:staggering-attack:galaxy-at-war"
+    },
+    {
+      "sheet": "Force Powers",
+      "row": 28,
+      "entity_id": "force_power:corruption"
+    },
+    {
+      "sheet": "Force Powers",
+      "row": 31,
+      "entity_id": "force_power:force-storm:force-unleashed-campaign-guide"
+    },
+    {
+      "sheet": "Force Powers",
+      "row": 50,
+      "entity_id": "force_power:force-blind"
+    },
+    {
+      "sheet": "Force Powers",
+      "row": 57,
+      "entity_id": "force_power:force-storm:jedi-academy-training-manual"
+    }
+  ]
+}

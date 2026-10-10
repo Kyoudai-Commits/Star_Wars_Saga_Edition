@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "scope": "Golden local navigation/evidence/policy/encoded-prerequisite cases. Not primary-source validation or exhaustive game-rule correctness.",
+  "cases": [
+    {
+      "id": "rapid_strike_area_interaction",
+      "method": "search",
+      "params": {
+        "query": "Rapid Strike Whirlwind Attack",
+        "limit": 5
+      },
+      "expect": {
+        "status": "ok",
+        "hit_entity": "feat:rapid-strike",
+        "hit_role": "clarification",
+        "hit_contains": "No, they",
+        "within": 3
+      }
+    },
+    {
+      "id": "embedded_armored_defense",
+      "method": "get",
+      "params": {
+        "name": "Armored Defense"
+      },
+      "expect": {
+        "status": "ok",
+        "entity_id": "talent:armor-specialist-talent-tree:armored-defense",
+        "contains": "whichever is higher"
+      }
+    },
+    {
+      "id": "staggering_ambiguous",
+      "method": "get",
+      "params": {
+        "name": "Staggering Attack"
+      },
+      "expect": {
+        "status": "ambiguous",
+        "choices": 2
+      }
+    },
+    {
+      "id": "staggering_sv_separated",
+      "method": "get",
+      "params": {
+        "name": "Staggering Attack",
+        "book": "Scum and Villainy"
+      },
+      "expect": {
+        "status": "ok",
+        "entity_id": "feat:staggering-attack:scum-and-villainy",
+        "contains": "2 squares per extra die",
+        "forbidden": "disrupts an enemy"
+      }
+    },
+    {
+      "id": "staggering_gaw_separated",
+      "method": "get",
+      "params": {
+        "name": "Staggering Attack",
+        "book": "Galaxy at War"
+      },
+      "expect": {
+        "status": "ok",
+        "entity_id": "feat:staggering-attack:galaxy-at-war",
+        "contains": "disrupts an enemy's concentration",
+        "forbidden": "per extra die sacrificed"
+      }
+    },
+    {
+      "id": "force_storm_ambiguous",
+      "method": "get",
+      "params": {
+        "name": "Force Storm"
+      },
+      "expect": {
+        "status": "ambiguous",
+        "choices": 2
+      }
+    },
+    {
+      "id": "force_storm_fucg",
+      "method": "get",
+      "params": {
+        "name": "Force Storm",
+        "book": "Force Unleashed Campaign Guide"
+      },
+      "expect": {
+        "status": "ok",
+        "contains": "Targets: Self",
+        "forbidden": "driving acid rain"
+      }
+    },
+    {
+      "id": "force_storm_jatm",
+      "method": "get",
+      "params": {
+        "name": "Force Storm",
+        "book": "Jedi Academy Training Manual"
+      },
+      "expect": {
+        "status": "ok",
+        "contains": "driving acid rain",
+        "forbidden": "Targets: Self"
+      }
+    },
+    {
+      "id": "corruption_type_split",
+      "method": "get",
+      "params": {
+        "name": "Corruption",
+        "kind": "force_power"
+      },
+      "expect": {
+        "status": "ok",
+        "entity_id": "force_power:corruption",
+        "forbidden": "Destiny Bonus"
+      }
+    },
+    {
+      "id": "intercept_maneuver_split",
+      "method": "get",
+      "params": {
+        "name": "Intercept",
+        "kind": "starship_maneuver"
+      },
+      "expect": {
+        "status": "ok",
+        "contains": "Pilot check",
+        "forbidden": "Use the Force check"
+      }
+    },
+    {
+      "id": "dark_transfer_not_merged",
+      "method": "get",
+      "params": {
+        "name": "Dark Transfer"
+      },
+      "expect": {
+        "status": "ambiguous",
+        "choices": 2
+      }
+    },
+    {
+      "id": "blind_requires_context",
+      "method": "get",
+      "params": {
+        "name": "Blind"
+      },
+      "expect": {
+        "status": "needs_context"
+      }
+    },
+    {
+      "id": "blind_contextual_local_mapping",
+      "method": "get",
+      "params": {
+        "name": "Blind",
+        "kind": "force_power"
+      },
+      "expect": {
+        "status": "ok",
+        "entity_id": "force_power:force-blind"
+      }
+    },
+    {
+      "id": "fandom_title_not_verified_alias",
+      "method": "get",
+      "params": {
+        "name": "https://swse.fandom.com/wiki/Battle_Strike",
+        "kind": "force_power"
+      },
+      "expect": {
+        "status": "cross_host_candidate"
+      }
+    },
+    {
+      "id": "move_object_base_and_clarification",
+      "method": "get",
+      "params": {
+        "name": "Move Object"
+      },
+      "expect": {
+        "status": "ok",
+        "contains": "size of the object and the damage",
+        "forbidden": "Medium objects always deal 2d6",
+        "forbidden_role": "optional_rule"
+      }
+    },
+    {
+      "id": "move_object_optional_opt_in",
+      "method": "get",
+      "params": {
+        "name": "Move Object",
+        "include_optional": true
+      },
+      "expect": {
+        "status": "ok",
+        "contains": "Medium objects always deal 2d6",
+        "required_role": "optional_rule"
+      }
+    },
+    {
+      "id": "block_optional_lock_default",
+      "method": "get",
+      "params": {
+        "name": "Block",
+        "kind": "talent"
+      },
+      "expect": {
+        "status": "ok",
+        "forbidden": "Saber Lock occurs"
+      }
+    },
+    {
+      "id": "block_optional_lock_opt_in",
+      "method": "get",
+      "params": {
+        "name": "Block",
+        "kind": "talent",
+        "include_optional": true
+      },
+      "expect": {
+        "status": "ok",
+        "contains": "Saber Lock occurs",
+        "required_role": "optional_rule"
+      }
+    },
+    {
+      "id": "five_heroic_classes_default",
+      "method": "list",
+      "params": {
+        "kind": "heroic_class",
+        "limit": 100
+      },
+      "expect": {
+        "status": "ok",
+        "total": 5,
+        "forbidden_item": "Technician"
+      }
+    },
+    {
+      "id": "homebrew_class_summary_only",
+      "method": "get",
+      "params": {
+        "name": "Technician",
+        "include_homebrew": true
+      },
+      "expect": {
+        "status": "summary_only_insufficient_rules"
+      }
+    },
+    {
+      "id": "homebrew_talent_default",
+      "method": "get",
+      "params": {
+        "name": "Wilderness Medic",
+        "kind": "talent"
+      },
+      "expect": {
+        "status": "excluded_by_policy"
+      }
+    },
+    {
+      "id": "homebrew_talent_opt_in",
+      "method": "get",
+      "params": {
+        "name": "Wilderness Medic",
+        "kind": "talent",
+        "include_homebrew": true
+      },
+      "expect": {
+        "status": "ok",
+        "contains": "Survival check modifier"
+      }
+    },
+    {
+      "id": "daily_force_points_default",
+      "method": "get",
+      "params": {
+        "name": "Daily Force Points"
+      },
+      "expect": {
+        "status": "excluded_by_policy"
+      }
+    },
+    {
+      "id": "force_points_embedded_coverage",
+      "method": "coverage",
+      "params": {
+        "name": "Force Point"
+      },
+      "expect": {
+        "status": "embedded_evidence"
+      }
+    },
+    {
+      "id": "use_the_force_detailed_gap",
+      "method": "coverage",
+      "params": {
+        "name": "Use the Force"
+      },
+      "expect": {
+        "status": "insufficient_local_evidence"
+      }
+    },
+    {
+      "id": "bounty_hunter_met",
+      "method": "check",
+      "params": {
+        "name": "Bounty Hunter",
+        "character": {
+          "level": 7,
+          "trained_skills": [
+            "Survival"
+          ],
+          "talents": [
+            {
+              "name": "Acute Senses",
+              "tree": "Awareness Talent Tree"
+            },
+            {
+              "name": "Expert Tracker",
+              "tree": "Awareness Talent Tree"
+            }
+          ]
+        }
+      },
+      "expect": {
+        "status": "encoded_prerequisites_checked",
+        "result": "met"
+      }
+    },
+    {
+      "id": "bounty_hunter_missing_facts_unknown",
+      "method": "check",
+      "params": {
+        "name": "Bounty Hunter",
+        "character": {
+          "level": 7
+        }
+      },
+      "expect": {
+        "status": "encoded_prerequisites_checked",
+        "result": "unknown"
+      }
+    },
+    {
+      "id": "duplicate_talents_not_double_counted",
+      "method": "check",
+      "params": {
+        "name": "Bounty Hunter",
+        "character": {
+          "level": 7,
+          "trained_skills": [
+            "Survival"
+          ],
+          "talents": [
+            "Acute Senses",
+            "Acute Senses"
+          ]
+        }
+      },
+      "expect": {
+        "status": "encoded_prerequisites_checked",
+        "result": "not_met"
+      }
+    },
+    {
+      "id": "elite_trooper_or_preserved",
+      "method": "check",
+      "params": {
+        "name": "Elite Trooper",
+        "character": {
+          "level": 7,
+          "base_attack_bonus": 7,
+          "feats": [
+            "Armor Proficiency (Light)",
+            "Armor Proficiency (Medium)",
+            "Martial Arts I",
+            "Flurry"
+          ],
+          "talents": [
+            {
+              "name": "Armored Defense",
+              "tree": "Armor Specialist Talent Tree"
+            }
+          ]
+        }
+      },
+      "expect": {
+        "status": "encoded_prerequisites_checked",
+        "result": "met"
+      }
+    },
+    {
+      "id": "native_light_armor_requirement_not_lost",
+      "method": "check",
+      "params": {
+        "name": "Elite Trooper",
+        "character": {
+          "level": 7,
+          "base_attack_bonus": 7,
+          "feats": [
+            "Armor Proficiency (Medium)",
+            "Martial Arts I",
+            "Flurry"
+          ],
+          "talents": [
+            {
+              "name": "Armored Defense",
+              "tree": "Armor Specialist Talent Tree"
+            }
+          ]
+        }
+      },
+      "expect": {
+        "status": "encoded_prerequisites_checked",
+        "result": "not_met"
+      }
+    },
+    {
+      "id": "unencoded_is_unknown_not_no_prereqs",
+      "method": "check",
+      "params": {
+        "name": "Vehicular Combat",
+        "character": {}
+      },
+      "expect": {
+        "status": "unencoded_prerequisites",
+        "result": "unknown"
+      }
+    },
+    {
+      "id": "partial_inventory_is_unknown",
+      "method": "check",
+      "params": {
+        "name": "Acrobatic Strike",
+        "character": {
+          "trained_skills": [],
+          "inventories_complete": {
+            "trained_skills": false
+          }
+        }
+      },
+      "expect": {
+        "status": "encoded_prerequisites_checked",
+        "result": "unknown"
+      }
+    },
+    {
+      "id": "awareness_enumeration_not_topk",
+      "method": "list",
+      "params": {
+        "kind": "talent",
+        "tree": "Awareness Talent Tree",
+        "limit": 100
+      },
+      "expect": {
+        "status": "ok",
+        "total": 8
+      }
+    }
+  ]
+}

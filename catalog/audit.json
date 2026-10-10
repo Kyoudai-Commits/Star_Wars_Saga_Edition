@@ -1,0 +1,1372 @@
+{
+  "schema_version": 1,
+  "method": "Local snapshot only; no network, rules verification, or source edits.",
+  "inputs": [
+    {
+      "path": "SWSE-Analysis/swse_wiki_export/index.jsonl",
+      "sha256": "d7107e00744927246a7ef369850927e8ced4c818db3d0a320d385004d50295f0"
+    },
+    {
+      "path": "SWSE-Analysis/SWSE_Master_Reference_10-8-2026.xlsx",
+      "sha256": "80cb44f362ac5532b0be9407e0d9de16b7173fdbc2a56cb1a4f6d4b04018edfb"
+    },
+    {
+      "path": "SWSE-Analysis/swse_wiki_export/report.json",
+      "sha256": "d36c3f0f770401b89729c93919b2e9cd4e5a74f30c08e3e251ebedf8c2f759ef"
+    }
+  ],
+  "wiki": {
+    "document_count": 809,
+    "markdown_bytes": 4833128,
+    "article_characters": 4340061,
+    "source_hosts": {
+      "swse.miraheze.org": 809
+    },
+    "retrieval_range_utc": [
+      "2026-10-09T09:36:19Z",
+      "2026-10-09T09:37:43Z"
+    ],
+    "verified_article_hashes": 809,
+    "verified_front_matter_records": 809,
+    "hash_scope": "Stripped article after generated Source line, including scrape noise; not full file.",
+    "duplicate_titles": [],
+    "duplicate_article_hashes": [],
+    "unindexed_files": [],
+    "document_kind_hints": {
+      "category": 4,
+      "feat": 352,
+      "force_power": 88,
+      "heroic_class": 5,
+      "prestige_class": 30,
+      "reference": 30,
+      "species": 133,
+      "talent_tree": 167
+    },
+    "category_counts": {
+      "2-Square Speed": 1,
+      "4-Square Speed": 13,
+      "6-Square Speed": 118,
+      "8-Square Speed": 3,
+      "Able Healers": 1,
+      "Ace Pilot": 1,
+      "Ace Pilot Talent Trees": 5,
+      "Acrobatic Prowess": 1,
+      "Advozsec": 1,
+      "Aggressive": 1,
+      "Aleena": 1,
+      "Altiri": 1,
+      "Amanin": 1,
+      "Anarrians": 1,
+      "Ancient Knowledge": 1,
+      "Animal Handler": 1,
+      "Antennapalps": 1,
+      "Anzati": 1,
+      "Aqualish": 1,
+      "Arcona": 1,
+      "Arkanian Offshoots": 1,
+      "Arkanians": 1,
+      "Armor Training": 1,
+      "Assassin": 1,
+      "Assassin Talent Trees": 4,
+      "Authority": 1,
+      "Balosars": 1,
+      "Barabel": 1,
+      "Bellow": 1,
+      "Bioknowledge": 2,
+      "Biotech Proficiency": 1,
+      "Bith": 1,
+      "Blood Carvers": 1,
+      "Bonus Class Skill": 9,
+      "Bonus Class Skill (Climb)": 2,
+      "Bonus Class Skill (Gather Information)": 1,
+      "Bonus Class Skill (Mechanics)": 2,
+      "Bonus Class Skill (Persuasion)": 1,
+      "Bonus Class Skill (Stealth)": 2,
+      "Bonus Class Skill (Survival)": 3,
+      "Bonus Equipment": 1,
+      "Bonus Feat": 16,
+      "Bonus Feat (Armor Proficiency (Light))": 1,
+      "Bonus Feat (Force Sensitivity)": 3,
+      "Bonus Feat (Improved Damage Threshold)": 3,
+      "Bonus Feat (Martial Arts I)": 2,
+      "Bonus Feat (Rapid Shot)": 1,
+      "Bonus Feat (Rapid Strike)": 1,
+      "Bonus Feat (Skill Training (Knowledge (Technology)))": 1,
+      "Bonus Feat (Toughness)": 2,
+      "Bonus Feat (Weapon Proficiency (Advanced Melee Weapons))": 2,
+      "Bonus Trained Skill": 7,
+      "Bonus Trained Skill (Use Computer)": 1,
+      "Bothans": 1,
+      "Bounty Hunter": 1,
+      "Bounty Hunter Talent Trees": 5,
+      "Breathe Underwater": 9,
+      "Broadcast Telepath": 1,
+      "Brutal": 1,
+      "Caamasi": 1,
+      "Carapace": 1,
+      "Careful Worker": 1,
+      "Cartilaginous Skeleton": 1,
+      "Cathar": 1,
+      "Celegians": 1,
+      "Cereans": 1,
+      "Chadra-Fans": 1,
+      "Chagrians": 1,
+      "Charlatan": 1,
+      "Charlatan Talent Trees": 4,
+      "Chiss": 1,
+      "Chistori": 1,
+      "Clawdites": 1,
+      "Climbing": 1,
+      "Clone Wars Campaign Guide": 88,
+      "Codru-Ji": 1,
+      "Cold Resistance": 2,
+      "Cold-Blooded": 1,
+      "Conditional Bonus Feat": 44,
+      "Conditional Bonus Feat (Dual Weapon Mastery I)": 1,
+      "Conditional Bonus Feat (Force Training)": 1,
+      "Conditional Bonus Feat (Mighty Swing)": 1,
+      "Conditional Bonus Feat (Precise Shot)": 1,
+      "Conditional Bonus Feat (Running Attack)": 1,
+      "Conditional Bonus Feat (Skill Focus (Acrobatics))": 2,
+      "Conditional Bonus Feat (Skill Focus (Climb))": 1,
+      "Conditional Bonus Feat (Skill Focus (Deception))": 5,
+      "Conditional Bonus Feat (Skill Focus (Endurance))": 1,
+      "Conditional Bonus Feat (Skill Focus (Gather Information))": 3,
+      "Conditional Bonus Feat (Skill Focus (Initiative))": 1,
+      "Conditional Bonus Feat (Skill Focus (Knowledge (Life Sciences)))": 1,
+      "Conditional Bonus Feat (Skill Focus (Mechanics))": 6,
+      "Conditional Bonus Feat (Skill Focus (Perception))": 4,
+      "Conditional Bonus Feat (Skill Focus (Persuasion))": 7,
+      "Conditional Bonus Feat (Skill Focus (Survival))": 4,
+      "Conditional Bonus Feat (Skill Focus (Treat Injury))": 2,
+      "Conditional Bonus Feat (Tech Specialist)": 1,
+      "Confusion": 1,
+      "Connections": 1,
+      "Cooperative": 1,
+      "Cooperative Spirit": 1,
+      "Core Rulebook": 177,
+      "Corporate Agent Talent Trees": 3,
+      "Crime Lord": 1,
+      "Crime Lord Talent Trees": 3,
+      "Damage Reduction": 3,
+      "Damage Reduction 2": 3,
+      "Dark Side Force Powers": 14,
+      "Dark Side Stigma": 1,
+      "Dark-Infused": 1,
+      "Darkvision": 15,
+      "Dashade": 1,
+      "Dawn of Defiance": 3,
+      "Deathstrike": 1,
+      "Deceptive": 4,
+      "Deductive Reasoning": 1,
+      "Defel": 1,
+      "Dependable Worker": 1,
+      "Desert Dweller": 1,
+      "Destinies": 1,
+      "Determination": 1,
+      "Devaronians": 1,
+      "Draethos": 1,
+      "Driven": 2,
+      "Droid Commander Talent Trees": 4,
+      "Droid Feats": 22,
+      "Droid Shell": 1,
+      "Droid Talent Trees": 5,
+      "Droid Traits": 1,
+      "Dug Agility": 1,
+      "Dugs": 1,
+      "Duros": 1,
+      "Duty Bound": 1,
+      "Ebruchi": 1,
+      "Ecological Awareness": 1,
+      "Elite Trooper Talent Trees": 10,
+      "Elomin": 1,
+      "Empathy": 1,
+      "Energy Reading": 1,
+      "Enforcer": 1,
+      "Enforcer Talent Trees": 2,
+      "Environmental Adaptation": 1,
+      "Evolved Intellect": 1,
+      "Ewoks": 1,
+      "Expert Climber": 5,
+      "Expert Pilot": 2,
+      "Expert Swimmer": 10,
+      "Expressive Pheromones": 1,
+      "Extra Arms": 1,
+      "Extraordinary Recuperation": 1,
+      "Falleen": 1,
+      "Fast Healing": 1,
+      "Feats": 352,
+      "Feeorin": 1,
+      "Feline Reflexes": 1,
+      "Felucians": 1,
+      "Flash of Genius": 1,
+      "Flight": 3,
+      "Force Adept": 1,
+      "Force Adept Talent Trees": 7,
+      "Force Blast": 1,
+      "Force Blind": 2,
+      "Force Disciple Talent Trees": 1,
+      "Force Feats": 3,
+      "Force Immunity": 1,
+      "Force Powers": 88,
+      "Force Resistance": 3,
+      "Force Sight": 1,
+      "Force Talent Trees": 6,
+      "Force Unleashed Campaign Guide": 94,
+      "Fosh": 1,
+      "Free Spirit": 1,
+      "Frightening Visage": 2,
+      "Galaxy at War": 81,
+      "Galaxy of Intrigue": 56,
+      "Gamorreans": 1,
+      "Gand": 1,
+      "Gen'Dai": 1,
+      "Geonosians": 1,
+      "Givin": 1,
+      "Gladiator Talent Trees": 3,
+      "Gotals": 1,
+      "Gran": 1,
+      "Grappling Feats": 11,
+      "Grasping Tentacles": 1,
+      "Great Fortitude": 6,
+      "Gungans": 1,
+      "Gunslinger Talent Trees": 6,
+      "Hardy": 1,
+      "Healing Glands": 1,
+      "Heightened Awareness": 8,
+      "Herglics": 1,
+      "Heroic Classes": 5,
+      "Hibernation": 1,
+      "Hive Mind": 1,
+      "Hold Breath": 3,
+      "Houk": 1,
+      "Hovering": 2,
+      "Hullepi": 1,
+      "Humans": 1,
+      "Hutts": 1,
+      "Iktotchi": 1,
+      "Imperial Knight": 1,
+      "Imperial Knight Talent Trees": 5,
+      "Impose Order": 1,
+      "Improviser Talent Trees": 2,
+      "Inborn Resilience": 1,
+      "Independent Droid Talent Trees": 3,
+      "Infiltrator": 1,
+      "Infiltrator Talent Trees": 4,
+      "Innate Accuracy": 1,
+      "Inspired": 1,
+      "Intellectual Reputation": 1,
+      "Intimidating Presence": 2,
+      "Intuitive Initiative": 2,
+      "Iron Will": 5,
+      "Ishi Tib": 1,
+      "Ithorians": 1,
+      "Jawas": 1,
+      "Jedi Academy Training Manual": 89,
+      "Jedi Bonus Feats": 79,
+      "Jedi Knight": 1,
+      "Jedi Knight Talent Trees": 14,
+      "Jedi Master": 1,
+      "Jedi Master Talent Trees": 1,
+      "Jedi Talent Trees": 4,
+      "Joiners": 1,
+      "Kaleesh": 1,
+      "Kaminoans": 1,
+      "Keen Force Sense": 1,
+      "Keen Smell": 1,
+      "Kel Dor": 1,
+      "Kerkoiden": 1,
+      "Khil": 1,
+      "Killiks": 1,
+      "Kissai": 1,
+      "Klatooinians": 1,
+      "Knights of the Old Republic Campaign Guide": 104,
+      "Krevaaki": 1,
+      "Large": 8,
+      "Legacy Era Campaign Guide": 82,
+      "Light Sensitivity": 1,
+      "Light Side Force Powers": 7,
+      "Lightning Reflexes": 4,
+      "Lightsaber Form Force Powers": 24,
+      "Limb Regeneration": 2,
+      "Limited Precognition": 1,
+      "Limited Telepathy": 1,
+      "Lockbite": 1,
+      "Low-Light Vision": 25,
+      "Lugubraa": 1,
+      "Lugubraa Learning": 1,
+      "Lurmen": 1,
+      "Mantellian Savrips": 1,
+      "Martial Arts Feats": 8,
+      "Martial Arts Master Talent Trees": 4,
+      "Massassi": 1,
+      "Master Privateer Talent Trees": 4,
+      "Mechanical Aptitude": 1,
+      "Mechanical Savant": 1,
+      "Medic": 1,
+      "Medic Talent Trees": 2,
+      "Meditative Trance": 1,
+      "Medium": 108,
+      "Melee Duelist Talent Trees": 3,
+      "Memory Sharing": 1,
+      "Mender": 1,
+      "Mental Instability": 1,
+      "Mesmerize": 1,
+      "Military Engineer Talent Trees": 2,
+      "Mind-Affecting Force Powers": 7,
+      "Miraluka": 1,
+      "Mon Calamari": 1,
+      "Moral Ambiguity": 1,
+      "Mrlssi": 1,
+      "Multiple Limbs": 1,
+      "Multiple Personalities": 1,
+      "Musical Beak": 1,
+      "Mute": 1,
+      "Nagai": 1,
+      "Natively Phonetic": 3,
+      "Natural Armor": 15,
+      "Natural Armor (+1)": 11,
+      "Natural Armor (+2)": 4,
+      "Natural Camouflage": 1,
+      "Natural Curiosity": 1,
+      "Natural Diplomat": 1,
+      "Natural Telepath": 1,
+      "Natural Weapons": 13,
+      "Nautolans": 1,
+      "Nazren": 1,
+      "Nazren Resilience": 1,
+      "Near-Humans": 1,
+      "Neimoidians": 1,
+      "Nelvaanians": 1,
+      "Nikto": 1,
+      "Nimble": 1,
+      "Noble Bonus Feats": 57,
+      "Noble Talent Trees": 15,
+      "Noghri": 1,
+      "Nomads": 1,
+      "Nosaurians": 1,
+      "Nyriaanans": 1,
+      "O'reenians": 1,
+      "Observant": 1,
+      "Ocean Dweller": 1,
+      "Officer Talent Trees": 5,
+      "Outlaw": 1,
+      "Outlaw Talent Trees": 4,
+      "Pa'lowicks": 1,
+      "Pacifism": 1,
+      "Pack Hunter": 1,
+      "Partial Invisibility": 1,
+      "Pathfinder Talent Trees": 2,
+      "Pau'ans": 1,
+      "Persistent": 2,
+      "Pheromonal Sensor": 1,
+      "Pheromone Acclimation": 1,
+      "Pheromones": 1,
+      "Phindians": 1,
+      "Physically Intimidating": 3,
+      "Placid": 1,
+      "Poison Resistance": 1,
+      "Poisonous": 1,
+      "Polis Massans": 1,
+      "Predator's Heritage": 1,
+      "Prehensile Tail": 2,
+      "Presence Sense": 1,
+      "Prestige Classes": 30,
+      "Primitive": 14,
+      "Quality Repairs": 1,
+      "Quarren": 1,
+      "Quick Energy": 1,
+      "Quick Reflexes": 2,
+      "Radiation Resistance": 3,
+      "Rage": 4,
+      "Rakata": 1,
+      "Reach": 1,
+      "Reactive Claw": 1,
+      "Rebellion Era Campaign Guide": 91,
+      "Regeneration": 1,
+      "Replica Droids": 1,
+      "Republic Clones": 1,
+      "Repulsive Appearance": 1,
+      "Resilient": 2,
+      "Resilient Physiology": 1,
+      "Rodians": 1,
+      "Roll": 1,
+      "Roller": 1,
+      "Ryn": 1,
+      "Sabacc Fortune-Telling": 1,
+      "Saboteur": 1,
+      "Saboteur Talent Trees": 4,
+      "Sakiyans": 1,
+      "Scavenger": 1,
+      "Scavenger's Guide to Droids": 29,
+      "Scent": 7,
+      "Scholarly Inclination": 1,
+      "Scoundrel Bonus Feats": 80,
+      "Scoundrel Talent Trees": 13,
+      "Scout Bonus Feats": 79,
+      "Scout Talent Trees": 13,
+      "Scum and Villainy": 75,
+      "Selkath": 1,
+      "Sensor Cones": 1,
+      "Serpentine": 1,
+      "Shadow Swiftness": 1,
+      "Shaper Talent Trees": 3,
+      "Shapeshift": 1,
+      "Shards": 1,
+      "Shistavanen": 1,
+      "Silver Tongued": 2,
+      "Sith Apprentice Talent Trees": 6,
+      "Sith Lord Talent Trees": 1,
+      "Skakoans": 1,
+      "Skill Challenge Feats": 3,
+      "Skilled Grappler": 1,
+      "Sluissi": 1,
+      "Small": 16,
+      "Sneaky": 4,
+      "Snivvians": 1,
+      "Social Cunning": 1,
+      "Soldier Bonus Feats": 140,
+      "Soldier Talent Trees": 12,
+      "Soothing Pheromones": 1,
+      "Soothing Voice": 3,
+      "Sorcerers of Rhand": 1,
+      "Soup Drinking": 1,
+      "Spatial Awareness": 1,
+      "Special Equipment": 6,
+      "Special Qualities": 1,
+      "Species": 133,
+      "Species Feats": 51,
+      "Squibs": 1,
+      "Ssi-Ruuk": 1,
+      "Starship Maneuvers": 1,
+      "Starships of the Galaxy": 30,
+      "Startle": 1,
+      "Stereb": 1,
+      "Stoic": 1,
+      "Strength Surge": 1,
+      "Strength of Conviction": 1,
+      "Stronger by Age": 1,
+      "Stun Resistance": 1,
+      "Sturdy": 1,
+      "Subterranean": 1,
+      "Sullustans": 1,
+      "Superior Defenses": 2,
+      "Supreme Stability": 1,
+      "Survival Instinct": 5,
+      "Swimming": 8,
+      "Talent Trees": 167,
+      "Talz": 1,
+      "Target Awareness": 1,
+      "Taung": 1,
+      "Team Feats": 13,
+      "Tech Savvy": 1,
+      "Technophobic": 1,
+      "Telekinetic Force Powers": 19,
+      "Thakwaash": 1,
+      "Threats of the Galaxy": 22,
+      "Tinkerer": 1,
+      "Tof Fearless": 1,
+      "Tofs": 1,
+      "Togorians": 1,
+      "Togruta": 1,
+      "Tough": 1,
+      "Toydarians": 1,
+      "Tradition Talent Trees": 25,
+      "Trandoshans": 1,
+      "Trianii": 1,
+      "Tusken Raiders": 1,
+      "Twi'leks": 1,
+      "Ubese": 1,
+      "Umbarans": 1,
+      "Unknown Regions Campaign Guide": 66,
+      "Unsettling": 1,
+      "Utai": 1,
+      "Vacuum Immunity": 1,
+      "Vagaari": 1,
+      "Vahla": 1,
+      "Vanguard Talent Trees": 3,
+      "Variable Size": 2,
+      "Verpine": 1,
+      "Verpine Communication": 1,
+      "Visually Striking": 1,
+      "Vultans": 1,
+      "Vurk": 1,
+      "Warrior Culture": 1,
+      "Warrior's Awareness": 2,
+      "Weapon Familiarity": 12,
+      "Web Enhancements": 52,
+      "Weequays": 1,
+      "Whiphids": 1,
+      "Wookiees": 1,
+      "Wroonians": 1,
+      "Xenophobia": 1,
+      "Yarkora": 1,
+      "Yevetha": 1,
+      "Yuuzhan Vong": 1,
+      "Yuzzem": 1,
+      "Zabrak": 1,
+      "Zeltron Empathy": 1,
+      "Zeltrons": 1,
+      "Zygerrians": 1
+    },
+    "article_size_characters": {
+      "minimum": 272,
+      "median": 2715,
+      "p90_floor_rank": 7907,
+      "maximum": 187919,
+      "over_20000": 26,
+      "over_50000": 10
+    },
+    "section_heading_count": 3073,
+    "pages_with_multiple_source_markers": 104,
+    "pages_with_markdown_tables": 279,
+    "repeated_headings": [
+      {
+        "title": "Equipment Upgrades",
+        "headings": [
+          {
+            "value": "Equipment Upgrades",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "title": "Followers",
+        "headings": [
+          {
+            "value": "Full-Round Actions",
+            "count": 2
+          },
+          {
+            "value": "Move Actions",
+            "count": 2
+          },
+          {
+            "value": "Standard Actions",
+            "count": 2
+          },
+          {
+            "value": "Swift Actions",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "title": "Gamemastering",
+        "headings": [
+          {
+            "value": "Act II",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "title": "Organizations",
+        "headings": [
+          {
+            "value": "Criteria Tables",
+            "count": 6
+          },
+          {
+            "value": "Roleplaying Applications",
+            "count": 9
+          },
+          {
+            "value": "Titles, Benefits, and Duties",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "title": "Skills",
+        "headings": [
+          {
+            "value": "Skills",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "title": "The Force",
+        "headings": [
+          {
+            "value": "Optional Rules",
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "scrape_noise": {
+      "pages_with_duplicated_jedi_counseling_label": 23,
+      "pages_with_loading_comments": 802
+    },
+    "link_scan_scope": "Inline HTTP Markdown destinations in article only; excludes generated Source link.",
+    "link_counts": {
+      "local_document_link_occurrences": 4401,
+      "no_local_document_link_occurrences": 23276,
+      "non_swse_link_occurrences": 3,
+      "swse_link_occurrences": 27677
+    },
+    "distinct_targets_without_local_document": 2622,
+    "top_targets_without_local_document": [
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Reflex Defense",
+        "example_url": "https://swse.miraheze.org/wiki/Reflex_Defense",
+        "occurrences": 341,
+        "source_document_count": 210,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Force Point",
+        "example_url": "https://swse.miraheze.org/wiki/Force_Point",
+        "occurrences": 357,
+        "source_document_count": 194,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Use the Force",
+        "example_url": "https://swse.miraheze.org/wiki/Use_the_Force",
+        "occurrences": 508,
+        "source_document_count": 186,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Standard Action",
+        "example_url": "https://swse.miraheze.org/wiki/Standard_Action",
+        "occurrences": 355,
+        "source_document_count": 185,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Core Rulebook",
+        "example_url": "https://swse.miraheze.org/wiki/Core_Rulebook",
+        "occurrences": 250,
+        "source_document_count": 185,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Swift Action",
+        "example_url": "https://swse.miraheze.org/wiki/Swift_Action",
+        "occurrences": 338,
+        "source_document_count": 177,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Trained",
+        "example_url": "https://swse.miraheze.org/wiki/Trained",
+        "occurrences": 310,
+        "source_document_count": 154,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Dexterity",
+        "example_url": "https://swse.miraheze.org/wiki/Dexterity",
+        "occurrences": 243,
+        "source_document_count": 152,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Will Defense",
+        "example_url": "https://swse.miraheze.org/wiki/Will_Defense",
+        "occurrences": 271,
+        "source_document_count": 148,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Line of Sight",
+        "example_url": "https://swse.miraheze.org/wiki/Line_of_Sight",
+        "occurrences": 226,
+        "source_document_count": 121,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Age Groups",
+        "example_url": "https://swse.miraheze.org/wiki/Age_Groups",
+        "occurrences": 120,
+        "source_document_count": 120,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Reaction",
+        "example_url": "https://swse.miraheze.org/wiki/Reaction",
+        "occurrences": 209,
+        "source_document_count": 116,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Hit Points",
+        "example_url": "https://swse.miraheze.org/wiki/Hit_Points",
+        "occurrences": 194,
+        "source_document_count": 116,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Charisma",
+        "example_url": "https://swse.miraheze.org/wiki/Charisma",
+        "occurrences": 185,
+        "source_document_count": 115,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Fortitude Defense",
+        "example_url": "https://swse.miraheze.org/wiki/Fortitude_Defense",
+        "occurrences": 191,
+        "source_document_count": 114,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Strength",
+        "example_url": "https://swse.miraheze.org/wiki/Strength",
+        "occurrences": 225,
+        "source_document_count": 113,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Constitution",
+        "example_url": "https://swse.miraheze.org/wiki/Constitution",
+        "occurrences": 166,
+        "source_document_count": 112,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Wisdom",
+        "example_url": "https://swse.miraheze.org/wiki/Wisdom",
+        "occurrences": 184,
+        "source_document_count": 111,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Intelligence",
+        "example_url": "https://swse.miraheze.org/wiki/Intelligence",
+        "occurrences": 179,
+        "source_document_count": 110,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Knights of the Old Republic Campaign Guide",
+        "example_url": "https://swse.miraheze.org/wiki/Knights_of_the_Old_Republic_Campaign_Guide",
+        "occurrences": 209,
+        "source_document_count": 108,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Condition Track",
+        "example_url": "https://swse.miraheze.org/wiki/Condition_Track",
+        "occurrences": 213,
+        "source_document_count": 105,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Base Attack Bonus",
+        "example_url": "https://swse.miraheze.org/wiki/Base_Attack_Bonus",
+        "occurrences": 196,
+        "source_document_count": 99,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Melee Attack",
+        "example_url": "https://swse.miraheze.org/wiki/Melee_Attack",
+        "occurrences": 205,
+        "source_document_count": 97,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Speed",
+        "example_url": "https://swse.miraheze.org/wiki/Speed",
+        "occurrences": 168,
+        "source_document_count": 97,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      },
+      {
+        "host": "swse.miraheze.org",
+        "wiki_title": "Force Unleashed Campaign Guide",
+        "example_url": "https://swse.miraheze.org/wiki/Force_Unleashed_Campaign_Guide",
+        "occurrences": 157,
+        "source_document_count": 97,
+        "status": "no_local_document_not_a_semantic_coverage_test"
+      }
+    ]
+  },
+  "workbook": {
+    "path": "SWSE-Analysis/SWSE_Master_Reference_10-8-2026.xlsx",
+    "sha256": "80cb44f362ac5532b0be9407e0d9de16b7173fdbc2a56cb1a4f6d4b04018edfb",
+    "record_count": 644,
+    "sheets": [
+      {
+        "name": "Heroic Classes",
+        "state": "visible",
+        "xml_row_count": 9,
+        "populated_row_count": 9,
+        "record_count": 7,
+        "literal_url_cell_count": 7,
+        "url_hosts": {
+          "swse.fandom.com": 2,
+          "swse.miraheze.org": 5
+        },
+        "link_match_counts": {
+          "local_document": 5,
+          "not_exported": 2
+        },
+        "unresolved_literal_urls": [
+          {
+            "row": 8,
+            "cell": "H8",
+            "label": "Technician",
+            "url": "https://swse.fandom.com/wiki/Technician",
+            "status": "not_exported"
+          },
+          {
+            "row": 9,
+            "cell": "H9",
+            "label": "Force Prodigy",
+            "url": "https://swse.fandom.com/wiki/Force_Prodigy",
+            "status": "not_exported"
+          }
+        ],
+        "duplicate_record_labels": [],
+        "duplicate_literal_urls": [],
+        "headers": [
+          {
+            "row": 1,
+            "cells": {
+              "A1": "CLASS",
+              "B1": "STARTING HIT POINTS",
+              "C1": "DEFENSE BONUS",
+              "D1": "TRAINED SKILLS",
+              "E1": "CLASS SKILLS",
+              "F1": "STARTING FEATS",
+              "G1": "TALENT TREES",
+              "H1": "LINKS"
+            }
+          }
+        ],
+        "section_markers": [
+          {
+            "row": 7,
+            "label": "Homebrew"
+          }
+        ],
+        "tables": [
+          {
+            "name": "Table_3",
+            "range": "A1:H9",
+            "header_row_count": 1,
+            "columns": [
+              "CLASS",
+              "STARTING HIT POINTS",
+              "DEFENSE BONUS",
+              "TRAINED SKILLS",
+              "CLASS SKILLS",
+              "STARTING FEATS",
+              "TALENT TREES",
+              "LINKS"
+            ]
+          }
+        ],
+        "merged_ranges": [],
+        "hyperlink_element_count": 7,
+        "formula_cells_not_evaluated": {}
+      },
+      {
+        "name": "Prestige Classes",
+        "state": "visible",
+        "xml_row_count": 995,
+        "populated_row_count": 29,
+        "record_count": 28,
+        "literal_url_cell_count": 28,
+        "url_hosts": {
+          "swse.miraheze.org": 28
+        },
+        "link_match_counts": {
+          "local_document": 28
+        },
+        "unresolved_literal_urls": [],
+        "duplicate_record_labels": [],
+        "duplicate_literal_urls": [],
+        "headers": [
+          {
+            "row": 1,
+            "cells": {
+              "A1": "PRESTIGE CLASS",
+              "B1": "PREREQUISITES",
+              "C1": "LINKS"
+            }
+          }
+        ],
+        "section_markers": [],
+        "tables": [
+          {
+            "name": "Table_1",
+            "range": "A1:C29",
+            "header_row_count": 1,
+            "columns": [
+              "PRESTIGE CLASS",
+              "PREREQUISITES",
+              "LINKS"
+            ]
+          }
+        ],
+        "merged_ranges": [],
+        "hyperlink_element_count": 84,
+        "formula_cells_not_evaluated": {}
+      },
+      {
+        "name": "Feats",
+        "state": "visible",
+        "xml_row_count": 1000,
+        "populated_row_count": 354,
+        "record_count": 353,
+        "literal_url_cell_count": 353,
+        "url_hosts": {
+          "swse.miraheze.org": 353
+        },
+        "link_match_counts": {
+          "local_document": 353
+        },
+        "unresolved_literal_urls": [],
+        "duplicate_record_labels": [
+          {
+            "label": "Staggering Attack",
+            "rows": [
+              138,
+              270
+            ]
+          }
+        ],
+        "duplicate_literal_urls": [
+          {
+            "url": "https://swse.miraheze.org/wiki/Staggering_Attack",
+            "rows": [
+              138,
+              270
+            ]
+          }
+        ],
+        "headers": [
+          {
+            "row": 1,
+            "cells": {
+              "A1": "FEAT",
+              "B1": "PREREQUISITES",
+              "C1": "BENEFITS",
+              "D1": "LINKS"
+            }
+          }
+        ],
+        "section_markers": [],
+        "tables": [
+          {
+            "name": "Table_2",
+            "range": "A1:D354",
+            "header_row_count": 1,
+            "columns": [
+              "FEAT",
+              "PREREQUISITES",
+              "BENEFITS",
+              "LINKS"
+            ]
+          }
+        ],
+        "merged_ranges": [],
+        "hyperlink_element_count": 1304,
+        "formula_cells_not_evaluated": {}
+      },
+      {
+        "name": "Force Powers",
+        "state": "visible",
+        "xml_row_count": 999,
+        "populated_row_count": 91,
+        "record_count": 89,
+        "literal_url_cell_count": 89,
+        "url_hosts": {
+          "swse.fandom.com": 89
+        },
+        "link_match_counts": {
+          "cross_host_title_candidate": 86,
+          "not_exported": 3
+        },
+        "unresolved_literal_urls": [
+          {
+            "row": 28,
+            "cell": "F28",
+            "label": "Corruption",
+            "url": "https://swse.fandom.com/wiki/Corruption_(Force_Power)",
+            "status": "not_exported"
+          },
+          {
+            "row": 31,
+            "cell": "F31",
+            "label": "Force Storm",
+            "url": "https://swse.fandom.com/wiki/Force_Storm_(FUCG)",
+            "status": "not_exported"
+          },
+          {
+            "row": 50,
+            "cell": "F50",
+            "label": "Blind",
+            "url": "https://swse.fandom.com/wiki/Blind",
+            "status": "not_exported"
+          }
+        ],
+        "duplicate_record_labels": [
+          {
+            "label": "Force Storm",
+            "rows": [
+              31,
+              57
+            ]
+          }
+        ],
+        "duplicate_literal_urls": [],
+        "headers": [
+          {
+            "row": 1,
+            "cells": {
+              "A1": "FORCE POWER",
+              "C1": "TYPE",
+              "D1": "TIME REQUIRMENT",
+              "E1": "DESCRIPTION",
+              "F1": "Links"
+            }
+          },
+          {
+            "row": 67,
+            "cells": {
+              "A67": "FORM POWER",
+              "B67": "FORM",
+              "C67": "TYPE",
+              "D67": "TIME REQUIREMENT",
+              "E67": "DESCRIPTION",
+              "F67": "Links"
+            }
+          }
+        ],
+        "section_markers": [],
+        "tables": [
+          {
+            "name": "Table_4",
+            "range": "A67:F91",
+            "header_row_count": 1,
+            "columns": [
+              "FORM POWER",
+              "FORM",
+              "TYPE",
+              "TIME REQUIREMENT",
+              "DESCRIPTION",
+              "Links"
+            ]
+          }
+        ],
+        "merged_ranges": [
+          "A50:B50",
+          "A51:B51",
+          "A52:B52",
+          "A53:B53",
+          "A54:B54",
+          "A55:B55",
+          "A56:B56",
+          "A64:B64",
+          "A65:B65",
+          "A66:B66",
+          "A57:B57",
+          "A58:B58",
+          "A59:B59",
+          "A60:B60",
+          "A61:B61",
+          "A62:B62",
+          "A63:B63",
+          "A1:B1",
+          "A2:B2",
+          "A3:B3",
+          "A4:B4",
+          "A5:B5",
+          "A6:B6",
+          "A7:B7",
+          "A8:B8",
+          "A9:B9",
+          "A10:B10",
+          "A11:B11",
+          "A12:B12",
+          "A13:B13",
+          "A14:B14",
+          "A15:B15",
+          "A16:B16",
+          "A17:B17",
+          "A18:B18",
+          "A19:B19",
+          "A20:B20",
+          "A21:B21",
+          "A22:B22",
+          "A23:B23",
+          "A24:B24",
+          "A25:B25",
+          "A26:B26",
+          "A27:B27",
+          "A28:B28",
+          "A29:B29",
+          "A30:B30",
+          "A31:B31",
+          "A32:B32",
+          "A33:B33",
+          "A34:B34",
+          "A35:B35",
+          "A36:B36",
+          "A37:B37",
+          "A38:B38",
+          "A39:B39",
+          "A40:B40",
+          "A41:B41",
+          "A42:B42",
+          "A43:B43",
+          "A44:B44",
+          "A45:B45",
+          "A46:B46",
+          "A47:B47",
+          "A48:B48",
+          "A49:B49"
+        ],
+        "hyperlink_element_count": 342,
+        "formula_cells_not_evaluated": {}
+      },
+      {
+        "name": "Talents",
+        "state": "visible",
+        "xml_row_count": 999,
+        "populated_row_count": 168,
+        "record_count": 167,
+        "literal_url_cell_count": 167,
+        "url_hosts": {
+          "swse.miraheze.org": 167
+        },
+        "link_match_counts": {
+          "local_document": 167
+        },
+        "unresolved_literal_urls": [],
+        "duplicate_record_labels": [],
+        "duplicate_literal_urls": [],
+        "headers": [
+          {
+            "row": 1,
+            "cells": {
+              "A1": "TALENT TREE",
+              "B1": "AVAILABILITY",
+              "C1": "DESCRIPTION",
+              "D1": "LINKS"
+            }
+          }
+        ],
+        "section_markers": [],
+        "tables": [
+          {
+            "name": "Table_5",
+            "range": "A1:D168",
+            "header_row_count": 1,
+            "columns": [
+              "TALENT TREE",
+              "AVAILABILITY",
+              "DESCRIPTION",
+              "LINKS"
+            ]
+          }
+        ],
+        "merged_ranges": [],
+        "hyperlink_element_count": 599,
+        "formula_cells_not_evaluated": {}
+      },
+      {
+        "name": "Links",
+        "state": "visible",
+        "xml_row_count": 1076,
+        "populated_row_count": 825,
+        "record_count": 0,
+        "literal_url_cell_count": 818,
+        "url_hosts": {
+          "swse.fandom.com": 2,
+          "swse.miraheze.org": 815,
+          "www.w3.org": 1
+        },
+        "link_match_counts": {
+          "local_document": 815,
+          "not_exported": 2,
+          "not_swse_wiki": 1
+        },
+        "unresolved_literal_urls": [
+          {
+            "row": 47,
+            "cell": "A47",
+            "label": "https://swse.fandom.com/wiki/Technician",
+            "url": "https://swse.fandom.com/wiki/Technician",
+            "status": "not_exported"
+          },
+          {
+            "row": 48,
+            "cell": "A48",
+            "label": "https://swse.fandom.com/wiki/Force_Prodigy",
+            "url": "https://swse.fandom.com/wiki/Force_Prodigy",
+            "status": "not_exported"
+          },
+          {
+            "row": 698,
+            "cell": "A698",
+            "label": "http://www.w3.org/1999/xhtml",
+            "url": "http://www.w3.org/1999/xhtml",
+            "status": "not_swse_wiki"
+          }
+        ],
+        "duplicate_record_labels": [],
+        "duplicate_literal_urls": [
+          {
+            "url": "https://swse.miraheze.org/wiki/Jedi",
+            "rows": [
+              16,
+              42
+            ]
+          },
+          {
+            "url": "https://swse.miraheze.org/wiki/Noble",
+            "rows": [
+              17,
+              43
+            ]
+          },
+          {
+            "url": "https://swse.miraheze.org/wiki/Scoundrel",
+            "rows": [
+              18,
+              44
+            ]
+          },
+          {
+            "url": "https://swse.miraheze.org/wiki/Scout",
+            "rows": [
+              19,
+              45
+            ]
+          },
+          {
+            "url": "https://swse.miraheze.org/wiki/Soldier",
+            "rows": [
+              20,
+              46
+            ]
+          },
+          {
+            "url": "https://swse.miraheze.org/wiki/Staggering_Attack",
+            "rows": [
+              219,
+              351
+            ]
+          }
+        ],
+        "headers": [],
+        "section_markers": [
+          {
+            "row": 1,
+            "label": "[[Main]]"
+          },
+          {
+            "row": 41,
+            "label": "[[Core Classes]]"
+          },
+          {
+            "row": 50,
+            "label": "[[Prestige Classes]]"
+          },
+          {
+            "row": 82,
+            "label": "[[Feats]]"
+          },
+          {
+            "row": 437,
+            "label": "[[Talent Trees]]"
+          },
+          {
+            "row": 606,
+            "label": "[[Force Powers]]"
+          },
+          {
+            "row": 697,
+            "label": "[[Species]]"
+          }
+        ],
+        "tables": [
+          {
+            "name": "Table_6",
+            "range": "A438:A604",
+            "header_row_count": 0,
+            "columns": [
+              "Column1"
+            ]
+          }
+        ],
+        "merged_ranges": [],
+        "hyperlink_element_count": 818,
+        "formula_cells_not_evaluated": {}
+      }
+    ]
+  },
+  "last_export_run": {
+    "started_at_utc": "2026-10-09T09:37:55Z",
+    "finished_at_utc": "2026-10-09T09:37:55Z",
+    "targets_file": "targets.txt",
+    "output_directory": "swse_wiki_export",
+    "counts": {
+      "downloaded": 0,
+      "not_modified": 0,
+      "failed": 2
+    },
+    "workers": 25,
+    "request_start_delay_seconds": 0.1,
+    "skip_cached_success": true,
+    "indexed_pages": 809,
+    "discovery_seeds": 0,
+    "discovery_seed_urls": [],
+    "discovered_pages_queued": 0,
+    "errors": [
+      {
+        "url": "https://swse.fandom.com/wiki/Force_Prodigy",
+        "error": "HTTP 403",
+        "discovery_seed": false
+      },
+      {
+        "url": "https://swse.fandom.com/wiki/Technician",
+        "error": "HTTP 403",
+        "discovery_seed": false
+      }
+    ]
+  },
+  "limitations": [
+    "Document/category hints are not a curated rules/entity taxonomy.",
+    "A local document match does not select a rule variant or verify its provenance.",
+    "Cross-host title candidates require review; disambiguators are never stripped.",
+    "Absent linked pages can have partial coverage embedded in another article.",
+    "Source markers can include FAQs and do not determine authority or optional-rule adoption.",
+    "Workbook cells are literal strings/cached values, not parsed game mechanics.",
+    "Workbook embedded hyperlink targets are not exported; primary links use literal URL cells.",
+    "The Links intake sheet is audited, not duplicated in workbook_records.jsonl."
+  ]
+}

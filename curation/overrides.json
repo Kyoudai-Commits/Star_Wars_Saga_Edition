@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "review_basis": "Agent review of the uploaded local text; not primary-publication verification. Ranges are inclusive original-file lines.",
+  "documents": {
+    "staggering-attack": {
+      "replace_entities": [
+        {
+          "id": "feat:staggering-attack:scum-and-villainy",
+          "name": "Staggering Attack",
+          "kind": "feat",
+          "variant": "Scum and Villainy",
+          "declared_sources": [
+            "Scum and Villainy"
+          ],
+          "ranges": [
+            [
+              18,
+              24
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": []
+        },
+        {
+          "id": "feat:staggering-attack:galaxy-at-war",
+          "name": "Staggering Attack",
+          "kind": "feat",
+          "variant": "Galaxy at War",
+          "declared_sources": [
+            "Galaxy at War"
+          ],
+          "ranges": [
+            [
+              26,
+              32
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": []
+        }
+      ],
+      "article_sha256": "454c38f503479193fbc73ca0bddc380ecd1b3cc5694b2a0184771c21d52bfdf6"
+    },
+    "force-storm": {
+      "replace_entities": [
+        {
+          "id": "force_power:force-storm:force-unleashed-campaign-guide",
+          "name": "Force Storm",
+          "kind": "force_power",
+          "variant": "Force Unleashed Campaign Guide",
+          "declared_sources": [
+            "Force Unleashed Campaign Guide"
+          ],
+          "ranges": [
+            [
+              18,
+              37
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Force Storm (FUCG)"
+          ]
+        },
+        {
+          "id": "force_power:force-storm:jedi-academy-training-manual",
+          "name": "Force Storm",
+          "kind": "force_power",
+          "variant": "Jedi Academy Training Manual",
+          "declared_sources": [
+            "Jedi Academy Training Manual"
+          ],
+          "ranges": [
+            [
+              39,
+              60
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Force Storm (JATM)"
+          ]
+        }
+      ],
+      "article_sha256": "fe49b050438ca1d0a5d57f3b71d901f1c0dc9819041d31677e5692295797d937"
+    },
+    "corruption": {
+      "replace_entities": [
+        {
+          "id": "destiny:corruption",
+          "name": "Corruption",
+          "kind": "destiny",
+          "variant": "Destiny",
+          "declared_sources": [
+            "Core Rulebook",
+            "Legacy Era Campaign Guide"
+          ],
+          "ranges": [
+            [
+              18,
+              26
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Corruption (Destiny)"
+          ]
+        },
+        {
+          "id": "force_power:corruption",
+          "name": "Corruption",
+          "kind": "force_power",
+          "variant": "Force power",
+          "declared_sources": [
+            "Force Unleashed Campaign Guide"
+          ],
+          "ranges": [
+            [
+              28,
+              49
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Corruption (Force Power)"
+          ]
+        }
+      ],
+      "article_sha256": "145af2cf2e0c9da4a46d0678fe039c25a8a691c1b513924a2efaf474ed118259"
+    },
+    "intercept": {
+      "replace_entities": [
+        {
+          "id": "force_power:intercept",
+          "name": "Intercept",
+          "kind": "force_power",
+          "variant": "Force power",
+          "declared_sources": [
+            "Jedi Academy Training Manual"
+          ],
+          "ranges": [
+            [
+              18,
+              32
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Intercept (Force Power)"
+          ]
+        },
+        {
+          "id": "starship_maneuver:intercept",
+          "name": "Intercept",
+          "kind": "starship_maneuver",
+          "variant": "Starship maneuver",
+          "declared_sources": [
+            "Starships of the Galaxy"
+          ],
+          "ranges": [
+            [
+              34,
+              51
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Intercept (Starship Maneuver)"
+          ]
+        }
+      ],
+      "article_sha256": "0533b983f15b30afc7037e64164955acffebe020c034faeedbe0aee6f8549ca1"
+    },
+    "dark-transfer": {
+      "replace_entities": [
+        {
+          "id": "force_power:dark-transfer:legacy-era-campaign-guide",
+          "name": "Dark Transfer",
+          "kind": "force_power",
+          "variant": "Legacy Era Campaign Guide",
+          "declared_sources": [
+            "Legacy Era Campaign Guide"
+          ],
+          "ranges": [
+            [
+              18,
+              37
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": []
+        },
+        {
+          "id": "force_power:dark-transfer:web-enhancements",
+          "name": "Dark Transfer",
+          "kind": "force_power",
+          "variant": "Web Enhancements / Star Wars Miniatures Previews",
+          "declared_sources": [
+            "Web Enhancements",
+            "Star Wars Miniatures Previews"
+          ],
+          "ranges": [
+            [
+              39,
+              59
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": []
+        }
+      ],
+      "article_sha256": "9cda72c09a75c3505b056ab433c2ce66abe1729a83ad9c1d8c0a50ef41fd901a"
+    },
+    "point-blank-shot": {
+      "annotations": [
+        {
+          "range": [
+            26,
+            30
+          ],
+          "rule_role": "clarification",
+          "declared_sources": [
+            "Galaxy at War"
+          ]
+        }
+      ],
+      "article_sha256": "9e2c1997d4b4fe0b9175253b9ac2dfde7e9bf549a87291b5f6fdec7d70106148"
+    },
+    "move-object": {
+      "annotations": [
+        {
+          "range": [
+            16,
+            34
+          ],
+          "rule_role": "base_rule",
+          "declared_sources": [
+            "Core Rulebook",
+            "Legacy Era Campaign Guide"
+          ]
+        },
+        {
+          "range": [
+            38,
+            46
+          ],
+          "rule_role": "clarification",
+          "declared_sources": [
+            "Web Enhancements",
+            "Jedi Counseling"
+          ]
+        },
+        {
+          "range": [
+            48,
+            52
+          ],
+          "rule_role": "base_rule",
+          "declared_sources": [
+            "Core Rulebook",
+            "Legacy Era Campaign Guide"
+          ]
+        },
+        {
+          "range": [
+            56,
+            58
+          ],
+          "rule_role": "clarification",
+          "declared_sources": [
+            "Jedi Academy Training Manual"
+          ]
+        },
+        {
+          "range": [
+            60,
+            62
+          ],
+          "rule_role": "optional_rule",
+          "declared_sources": [
+            "Jedi Academy Training Manual"
+          ]
+        },
+        {
+          "range": [
+            64,
+            66
+          ],
+          "rule_role": "gm_advice",
+          "declared_sources": [
+            "Jedi Academy Training Manual"
+          ]
+        }
+      ],
+      "article_sha256": "9200bc2a2c1ef697d3cb45a19ab06da0247080dafd79fed2b31ba36721ee3980"
+    },
+    "abilities": {
+      "add_entities": [
+        {
+          "id": "rule_concept:ability-modifiers",
+          "name": "Ability Modifiers",
+          "kind": "rule_concept",
+          "variant": "Embedded general rule",
+          "declared_sources": [
+            "Core Rulebook"
+          ],
+          "ranges": [
+            [
+              99,
+              113
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Ability Modifier"
+          ]
+        },
+        {
+          "id": "rule_concept:ability-checks",
+          "name": "Ability Checks",
+          "kind": "rule_concept",
+          "variant": "Embedded general rule",
+          "declared_sources": [
+            "Core Rulebook"
+          ],
+          "ranges": [
+            [
+              114,
+              128
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Ability Check"
+          ]
+        }
+      ],
+      "article_sha256": "ef3a1ad561d1a97ebcd9b05ea1c1ae4fa9904e9312054fa0914a7aef3555b6ef"
+    },
+    "skills": {
+      "add_entities": [
+        {
+          "id": "rule_concept:skill-checks",
+          "name": "Skill Checks",
+          "kind": "rule_concept",
+          "variant": "General skill-check rules",
+          "declared_sources": [
+            "Core Rulebook"
+          ],
+          "ranges": [
+            [
+              16,
+              50
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Skill Check"
+          ]
+        },
+        {
+          "id": "rule_concept:trained-skills",
+          "name": "Trained Skills",
+          "kind": "rule_concept",
+          "variant": "Embedded general rule",
+          "declared_sources": [
+            "Core Rulebook"
+          ],
+          "ranges": [
+            [
+              95,
+              100
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Trained Skill"
+          ]
+        },
+        {
+          "id": "rule_concept:taking-10",
+          "name": "Taking 10",
+          "kind": "rule_concept",
+          "variant": "Embedded general rule",
+          "declared_sources": [
+            "Core Rulebook"
+          ],
+          "ranges": [
+            [
+              101,
+              108
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Take 10"
+          ]
+        },
+        {
+          "id": "rule_concept:taking-20",
+          "name": "Taking 20",
+          "kind": "rule_concept",
+          "variant": "Embedded general rule",
+          "declared_sources": [
+            "Core Rulebook"
+          ],
+          "ranges": [
+            [
+              109,
+              118
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Take 20"
+          ]
+        }
+      ],
+      "article_sha256": "2607f94d36b68295b462a4700ce5596c677b219849958ce9e69d5835887e1731"
+    },
+    "the-force": {
+      "add_entities": [
+        {
+          "id": "rule_concept:force-points",
+          "name": "Force Points",
+          "kind": "rule_concept",
+          "variant": "Base Force Points",
+          "declared_sources": [
+            "Core Rulebook"
+          ],
+          "ranges": [
+            [
+              46,
+              64
+            ]
+          ],
+          "rule_role": "base_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": [
+            "Force Point",
+            "Using Force Points"
+          ]
+        },
+        {
+          "id": "rule_concept:daily-force-points",
+          "name": "Daily Force Points",
+          "kind": "rule_concept",
+          "variant": "Optional daily refresh",
+          "declared_sources": [
+            "Jedi Academy Training Manual"
+          ],
+          "ranges": [
+            [
+              70,
+              76
+            ]
+          ],
+          "rule_role": "optional_rule",
+          "review_status": "reviewed_local_boundaries",
+          "aliases": []
+        }
+      ],
+      "annotations": [
+        {
+          "range": [
+            70,
+            76
+          ],
+          "rule_role": "optional_rule",
+          "declared_sources": [
+            "Jedi Academy Training Manual"
+          ]
+        }
+      ],
+      "article_sha256": "f2afec9ef95f4802e4238721aaf8099e78609fd022309fd7e8dcf3107456c805"
+    }
+  }
+}

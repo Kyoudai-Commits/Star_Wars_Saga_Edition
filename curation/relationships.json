@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "relationships": [
+    {
+      "source": "feat:rapid-strike",
+      "relation": "does_not_stack_with",
+      "target": "feat:mighty-swing",
+      "document": "rapid-strike",
+      "article_sha256": "d41c0e1dc5d331e37d45b6aaa75cd9d190173a3c6172e806219eda7cab90df67",
+      "ranges": [
+        [
+          24,
+          24
+        ]
+      ],
+      "review_status": "reviewed_local_interaction"
+    },
+    {
+      "source": "feat:rapid-strike",
+      "relation": "incompatible_with",
+      "target": "feat:whirlwind-attack",
+      "document": "rapid-strike",
+      "article_sha256": "d41c0e1dc5d331e37d45b6aaa75cd9d190173a3c6172e806219eda7cab90df67",
+      "ranges": [
+        [
+          40,
+          40
+        ]
+      ],
+      "review_status": "reviewed_local_interaction"
+    },
+    {
+      "source": "feat:rapid-shot",
+      "relation": "incompatible_with",
+      "target": "rule_reference:autofire",
+      "document": "rapid-strike",
+      "article_sha256": "d41c0e1dc5d331e37d45b6aaa75cd9d190173a3c6172e806219eda7cab90df67",
+      "ranges": [
+        [
+          40,
+          40
+        ]
+      ],
+      "review_status": "reviewed_local_interaction"
+    }
+  ]
+}

@@ -1,0 +1,1211 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "6db6392e25c997777b99ab567c7e425d4442924b27dfc99e778629edbec68e27",
+  "scope": "Top 75 non-bibliographic/media document gaps by referring-document count; not proven missing rules.",
+  "items": [
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Reflex Defense",
+      "example_url": "https://swse.miraheze.org/wiki/Reflex_Defense",
+      "occurrences": 341,
+      "source_document_count": 210,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/a-few-maneuvers.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Force Point",
+      "example_url": "https://swse.miraheze.org/wiki/Force_Point",
+      "occurrences": 357,
+      "source_document_count": 194,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-dodge.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/agent-of-ossus-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": "embedded_evidence",
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Use the Force",
+      "example_url": "https://swse.miraheze.org/wiki/Use_the_Force",
+      "occurrences": 508,
+      "source_document_count": 186,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/agent-of-ossus-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aing-tii-monk-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": "insufficient_local_evidence",
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Standard Action",
+      "example_url": "https://swse.miraheze.org/wiki/Standard_Action",
+      "occurrences": 355,
+      "source_document_count": 185,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Swift Action",
+      "example_url": "https://swse.miraheze.org/wiki/Swift_Action",
+      "occurrences": 338,
+      "source_document_count": 177,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Trained",
+      "example_url": "https://swse.miraheze.org/wiki/Trained",
+      "occurrences": 310,
+      "source_document_count": 154,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Dexterity",
+      "example_url": "https://swse.miraheze.org/wiki/Dexterity",
+      "occurrences": 243,
+      "source_document_count": 152,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-ally.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-dodge.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Will Defense",
+      "example_url": "https://swse.miraheze.org/wiki/Will_Defense",
+      "occurrences": 271,
+      "source_document_count": 148,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/agent-of-ossus-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/alter-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Line of Sight",
+      "example_url": "https://swse.miraheze.org/wiki/Line_of_Sight",
+      "occurrences": 226,
+      "source_document_count": 121,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Age Groups",
+      "example_url": "https://swse.miraheze.org/wiki/Age_Groups",
+      "occurrences": 120,
+      "source_document_count": 120,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advozse.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aleena.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/altiri.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Reaction",
+      "example_url": "https://swse.miraheze.org/wiki/Reaction",
+      "occurrences": 209,
+      "source_document_count": 116,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Hit Points",
+      "example_url": "https://swse.miraheze.org/wiki/Hit_Points",
+      "occurrences": 194,
+      "source_document_count": 116,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Charisma",
+      "example_url": "https://swse.miraheze.org/wiki/Charisma",
+      "occurrences": 185,
+      "source_document_count": 115,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aleena.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/altiri.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Fortitude Defense",
+      "example_url": "https://swse.miraheze.org/wiki/Fortitude_Defense",
+      "occurrences": 191,
+      "source_document_count": 114,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Strength",
+      "example_url": "https://swse.miraheze.org/wiki/Strength",
+      "occurrences": 225,
+      "source_document_count": 113,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-ally.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Constitution",
+      "example_url": "https://swse.miraheze.org/wiki/Constitution",
+      "occurrences": 166,
+      "source_document_count": 112,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advozse.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aleena.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Wisdom",
+      "example_url": "https://swse.miraheze.org/wiki/Wisdom",
+      "occurrences": 184,
+      "source_document_count": 111,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advozse.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/alter-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Intelligence",
+      "example_url": "https://swse.miraheze.org/wiki/Intelligence",
+      "occurrences": 179,
+      "source_document_count": 110,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/alter-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/amani.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Condition Track",
+      "example_url": "https://swse.miraheze.org/wiki/Condition_Track",
+      "occurrences": 213,
+      "source_document_count": 105,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Base Attack Bonus",
+      "example_url": "https://swse.miraheze.org/wiki/Base_Attack_Bonus",
+      "occurrences": 196,
+      "source_document_count": 99,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/accelerated-strike.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advantageous-attack.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assault.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Melee Attack",
+      "example_url": "https://swse.miraheze.org/wiki/Melee_Attack",
+      "occurrences": 205,
+      "source_document_count": 97,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-dodge.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Speed",
+      "example_url": "https://swse.miraheze.org/wiki/Speed",
+      "occurrences": 168,
+      "source_document_count": 97,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aing-tii-monk-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Persuasion",
+      "example_url": "https://swse.miraheze.org/wiki/Persuasion",
+      "occurrences": 195,
+      "source_document_count": 96,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Perception",
+      "example_url": "https://swse.miraheze.org/wiki/Perception",
+      "occurrences": 158,
+      "source_document_count": 95,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Free Action",
+      "example_url": "https://swse.miraheze.org/wiki/Free_Action",
+      "occurrences": 108,
+      "source_document_count": 91,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Stealth",
+      "example_url": "https://swse.miraheze.org/wiki/Stealth",
+      "occurrences": 179,
+      "source_document_count": 89,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advantageous-cover.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Feat",
+      "example_url": "https://swse.miraheze.org/wiki/Feat",
+      "occurrences": 141,
+      "source_document_count": 85,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anarrian.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aqualish.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/blood-carver.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Force Power",
+      "example_url": "https://swse.miraheze.org/wiki/Force_Power",
+      "occurrences": 192,
+      "source_document_count": 78,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aing-tii-monk-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/alter-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Ranged Attack",
+      "example_url": "https://swse.miraheze.org/wiki/Ranged_Attack",
+      "occurrences": 136,
+      "source_document_count": 76,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/agent-of-ossus-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Mechanics",
+      "example_url": "https://swse.miraheze.org/wiki/Mechanics",
+      "occurrences": 184,
+      "source_document_count": 71,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Vehicle",
+      "example_url": "https://swse.miraheze.org/wiki/Vehicle",
+      "occurrences": 187,
+      "source_document_count": 70,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/a-few-maneuvers.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Concealment",
+      "example_url": "https://swse.miraheze.org/wiki/Concealment",
+      "occurrences": 91,
+      "source_document_count": 70,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advozse.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anzati.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/arcona.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Damage Threshold",
+      "example_url": "https://swse.miraheze.org/wiki/Damage_Threshold",
+      "occurrences": 112,
+      "source_document_count": 69,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/autonomy-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/backgrounds.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/barabel.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Talent",
+      "example_url": "https://swse.miraheze.org/wiki/Talent",
+      "occurrences": 194,
+      "source_document_count": 68,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/adaptable-talent.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assassin.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Full-Round Action",
+      "example_url": "https://swse.miraheze.org/wiki/Full-Round_Action",
+      "occurrences": 93,
+      "source_document_count": 67,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Deception",
+      "example_url": "https://swse.miraheze.org/wiki/Deception",
+      "occurrences": 140,
+      "source_document_count": 66,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/alter-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Droid",
+      "example_url": "https://swse.miraheze.org/wiki/Droid",
+      "occurrences": 156,
+      "source_document_count": 64,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aiming-accuracy.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/alter-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Scouts",
+      "example_url": "https://swse.miraheze.org/wiki/Scouts",
+      "occurrences": 67,
+      "source_document_count": 62,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aleena.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/amani.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Nobles",
+      "example_url": "https://swse.miraheze.org/wiki/Nobles",
+      "occurrences": 64,
+      "source_document_count": 62,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advozse.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aleena.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Scoundrels",
+      "example_url": "https://swse.miraheze.org/wiki/Scoundrels",
+      "occurrences": 66,
+      "source_document_count": 60,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aleena.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/amani.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Attacks of Opportunity",
+      "example_url": "https://swse.miraheze.org/wiki/Attacks_of_Opportunity",
+      "occurrences": 97,
+      "source_document_count": 59,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-ally.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aing-tii-monk-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Force Points",
+      "example_url": "https://swse.miraheze.org/wiki/Force_Points",
+      "occurrences": 87,
+      "source_document_count": 59,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assassin.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/bothan-spynet-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [
+        "rule_concept:force-points"
+      ],
+      "reviewed_coverage_status": "embedded_evidence",
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Lightsaber",
+      "example_url": "https://swse.miraheze.org/wiki/Lightsaber",
+      "occurrences": 220,
+      "source_document_count": 58,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assured-strike.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/barrier-of-blades.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/dark-side-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Move Action",
+      "example_url": "https://swse.miraheze.org/wiki/Move_Action",
+      "occurrences": 90,
+      "source_document_count": 56,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aquatic-specialists.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ascension-specialists.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Trained Skill",
+      "example_url": "https://swse.miraheze.org/wiki/Trained_Skill",
+      "occurrences": 65,
+      "source_document_count": 54,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/altiri.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/arkanian-offshoot.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Total Concealment",
+      "example_url": "https://swse.miraheze.org/wiki/Total_Concealment",
+      "occurrences": 68,
+      "source_document_count": 53,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advozse.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/agent-of-ossus-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anzati.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Heroic Class",
+      "example_url": "https://swse.miraheze.org/wiki/Heroic_Class",
+      "occurrences": 85,
+      "source_document_count": 52,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/arcona.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/backgrounds.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/balosar.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Soldiers",
+      "example_url": "https://swse.miraheze.org/wiki/Soldiers",
+      "occurrences": 56,
+      "source_document_count": 52,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anarrian.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aqualish.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Skill Check",
+      "example_url": "https://swse.miraheze.org/wiki/Skill_Check",
+      "occurrences": 114,
+      "source_document_count": 51,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/agent-of-ossus-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anarrian.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": "embedded_evidence",
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Cover",
+      "example_url": "https://swse.miraheze.org/wiki/Cover",
+      "occurrences": 102,
+      "source_document_count": 51,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advantageous-cover.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/angled-throw.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/arcona.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Skill Checks",
+      "example_url": "https://swse.miraheze.org/wiki/Skill_Checks",
+      "occurrences": 101,
+      "source_document_count": 51,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aing-tii-monk-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aleena.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [
+        "rule_concept:skill-checks"
+      ],
+      "reviewed_coverage_status": "embedded_evidence",
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Use Computer",
+      "example_url": "https://swse.miraheze.org/wiki/Use_Computer",
+      "occurrences": 122,
+      "source_document_count": 48,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aing-tii-monk-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Class",
+      "example_url": "https://swse.miraheze.org/wiki/Class",
+      "occurrences": 77,
+      "source_document_count": 47,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/adaptable-talent.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Defense",
+      "example_url": "https://swse.miraheze.org/wiki/Defense",
+      "occurrences": 58,
+      "source_document_count": 46,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assassin.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/bounty-hunter.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Pilot",
+      "example_url": "https://swse.miraheze.org/wiki/Pilot",
+      "occurrences": 93,
+      "source_document_count": 45,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Initiative",
+      "example_url": "https://swse.miraheze.org/wiki/Initiative",
+      "occurrences": 85,
+      "source_document_count": 45,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/armor-proficiency-heavy.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Attack of Opportunity",
+      "example_url": "https://swse.miraheze.org/wiki/Attack_of_Opportunity",
+      "occurrences": 78,
+      "source_document_count": 44,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-dodge.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/acrobatic-strike.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Move",
+      "example_url": "https://swse.miraheze.org/wiki/Move",
+      "occurrences": 56,
+      "source_document_count": 44,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anointed-hunter.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anticipation-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Force",
+      "example_url": "https://swse.miraheze.org/wiki/Force",
+      "occurrences": 102,
+      "source_document_count": 41,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aing-tii-monk-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/baran-do-sage-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/battle-strike.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Treat Injury",
+      "example_url": "https://swse.miraheze.org/wiki/Treat_Injury",
+      "occurrences": 95,
+      "source_document_count": 40,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/1st-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advanced-medicine-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Survival",
+      "example_url": "https://swse.miraheze.org/wiki/Survival",
+      "occurrences": 79,
+      "source_document_count": 40,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advance-patrol-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ample-foraging.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Unarmed",
+      "example_url": "https://swse.miraheze.org/wiki/Unarmed",
+      "occurrences": 68,
+      "source_document_count": 39,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/barabel.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/brawler-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Flat-Footed",
+      "example_url": "https://swse.miraheze.org/wiki/Flat-Footed",
+      "occurrences": 49,
+      "source_document_count": 39,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assassin-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assassin.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/awareness-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Range",
+      "example_url": "https://swse.miraheze.org/wiki/Range",
+      "occurrences": 80,
+      "source_document_count": 38,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/artillery-shot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assassin-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Swift Actions",
+      "example_url": "https://swse.miraheze.org/wiki/Swift_Actions",
+      "occurrences": 68,
+      "source_document_count": 38,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Skill",
+      "example_url": "https://swse.miraheze.org/wiki/Skill",
+      "occurrences": 104,
+      "source_document_count": 37,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Humans",
+      "example_url": "https://swse.miraheze.org/wiki/Humans",
+      "occurrences": 65,
+      "source_document_count": 37,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/altiri.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/anzati.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/arcona.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Defenses",
+      "example_url": "https://swse.miraheze.org/wiki/Defenses",
+      "occurrences": 58,
+      "source_document_count": 37,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/5th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/baran-do-sage-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/believer-disciple-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Aid Another",
+      "example_url": "https://swse.miraheze.org/wiki/Aid_Another",
+      "occurrences": 73,
+      "source_document_count": 36,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/3rd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/advanced-medicine-talent-tree.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Take 10",
+      "example_url": "https://swse.miraheze.org/wiki/Take_10",
+      "occurrences": 40,
+      "source_document_count": 36,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/2nd-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/amani.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/aqualish.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "BASE ATTACK BONUS",
+      "example_url": "https://swse.miraheze.org/wiki/BASE_ATTACK_BONUS",
+      "occurrences": 68,
+      "source_document_count": 35,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/ace-pilot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assassin.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/bounty-hunter.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Reach",
+      "example_url": "https://swse.miraheze.org/wiki/Reach",
+      "occurrences": 52,
+      "source_document_count": 35,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/4th-degree-droid-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/amani.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/assured-strike.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "The Outer Rim",
+      "example_url": "https://swse.miraheze.org/wiki/The_Outer_Rim?action=edit&redlink=1",
+      "occurrences": 89,
+      "source_document_count": 34,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/amani.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/barabel.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/bith.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "The Dark Side",
+      "example_url": "https://swse.miraheze.org/wiki/The_Dark_Side",
+      "occurrences": 71,
+      "source_document_count": 34,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/believer-disciple-talent-tree.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/cathar.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/cerean.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    },
+    {
+      "host": "swse.miraheze.org",
+      "wiki_title": "Endurance",
+      "example_url": "https://swse.miraheze.org/wiki/Endurance",
+      "occurrences": 62,
+      "source_document_count": 34,
+      "sample_source_paths": [
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/abilities.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/arkanian-offshoot.md",
+        "SWSE-Analysis/swse_wiki_export/pages/swse-miraheze-org/armor-proficiency-heavy.md"
+      ],
+      "status": "no_local_document_not_a_semantic_coverage_test",
+      "local_name_candidate_ids": [],
+      "reviewed_coverage_status": null,
+      "interpretation": "Local name candidates are not URL equivalence or complete semantic coverage."
+    }
+  ]
+}
